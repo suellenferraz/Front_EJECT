@@ -45,14 +45,14 @@ class Footer extends HTMLElement{
 
         });
 
-    
 
-        const redesSociais = document.createElement('img');
-        redesSociais.classList.add('redes-sociais');
-        redesSociais.src = this.getAttribute('srcRedesSociais');
+        
+        // const redesSociais = document.createElement('img');
+        // redesSociais.classList.add('redes-sociais');
+        // redesSociais.src = this.getAttribute('srcRedesSociais');
 
 
-        contato.appendChild(redesSociais);
+        // contato.appendChild(redesSociais);
 
 
         //segunda coluna (FAQ)
@@ -143,6 +143,9 @@ class Footer extends HTMLElement{
             margin: 0;
             width: 50%;
         }
+        .contato li {
+            margin-bottom: 0.3rem;
+        }
         .faq { 
             display: flex;
             flex-direction: column;
@@ -189,7 +192,6 @@ class Footer extends HTMLElement{
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: space-between;
             
         }
        
@@ -203,11 +205,10 @@ class Footer extends HTMLElement{
             font-weight: 400;
             font-size: 14px;
 
-            color: #262626;
-
-
-            
+            color: #262626;    
         }
+       
+
         `;
         
         colunasFooter.appendChild(contato);
