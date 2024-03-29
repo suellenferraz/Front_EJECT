@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.card-footer{
+    margin:0;
+    padding: 0;
+}
+
+footer{
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
