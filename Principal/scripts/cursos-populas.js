@@ -12,7 +12,7 @@ class cursosPopulares extends HTMLElement{
         fotoCurso.src = this.getAttribute('src');
 
 
-        //linha dotitulo
+        //linha do titulo
         const titulo = document.createElement('div');
         titulo.classList.add('titulo');
 
@@ -20,6 +20,7 @@ class cursosPopulares extends HTMLElement{
         tituloCurso.textContent = this.getAttribute('titulo');
 
         const avaliacao = document.createElement('p');
+        avaliacao.classList.add('avaliacao');
         avaliacao.textContent = '⭐'+'('+this.getAttribute('avaliacao')+')';
 
         titulo.appendChild(tituloCurso);
@@ -34,19 +35,39 @@ class cursosPopulares extends HTMLElement{
         const informacaoCurso = document.createElement('p');
         informacaoCurso.textContent = this.getAttribute('informacao');
 
-        const valorCurso = document.createElement('p');
-        valorCurso.textContent = this.getAttribute('valor');
+
+        // valores
+        const linhaValores = document.createElement('div');
+        linhaValores.classList.add('linhaValores');
+
+        const valorCurso = document.createElement('div');
+        valorCurso.classList.add('valor');
+
+        const valorParcela = document.createElement('p');
+        valorParcela.textContent = this.getAttribute('valorParcela');
+
+        const valorAVista = document.createElement('span');
+        valorAVista.classList.add('valorAVista');
+        valorAVista.textContent = 'ou ' + this.getAttribute
+        ('valorAVista');
+
+        
+        valorCurso.appendChild(valorParcela);
+        valorCurso.appendChild(valorAVista);
+        linhaValores.appendChild(valorCurso);
 
         const botaoVerMais = document.createElement('button');
+        botaoVerMais.classList.add('botaoVerMais');
         botaoVerMais.textContent = 'Ver mais';
+
+        linhaValores.appendChild(botaoVerMais);
 
 
         curso.appendChild(fotoCurso);
         curso.appendChild(titulo);
         curso.appendChild(dadosCurso);
         curso.appendChild(informacaoCurso);
-        curso.appendChild(valorCurso);
-        curso.appendChild(botaoVerMais);
+        curso.appendChild(linhaValores);
 
 
         const style = document.createElement('style');
@@ -67,16 +88,65 @@ class cursosPopulares extends HTMLElement{
             }
             .curso p{
                 font-size: 12px;
-                margin: 0.5rem 0;
             }
             .titulo{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                margin: 0;
             }
-            .dados p{
-                font-size: 18px;
+           .titulo p{
+            font-size: 10px;
+           }
+
+          .linhaValores{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+          }
+          .botaoVerMais{
+            background-color: #FF7000;
+            width: 40%;
+            height: 35px;
+            border: none;
+            color: white;
+
+            border-radius: 50px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+          }
+            .valorAVista{
+                
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 18px;
+                
+                color: #787878;
+                margin-bottom: 0px;
             }
+            .valor{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: start;
+            }
+            .valor p{
+                margin: 0;
+            }
+            .dados{
+                margin: 0px;
+            }
+          .linhaValores{
+            margin-top: 1rem;
+          }
         `
 
 
@@ -86,3 +156,12 @@ class cursosPopulares extends HTMLElement{
 }
 
 customElements.define('cursos-populares', cursosPopulares);
+
+
+
+
+
+
+
+
+
