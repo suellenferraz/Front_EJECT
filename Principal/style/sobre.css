@@ -1,6 +1,143 @@
-body{
+body {
     margin: 0;
     padding: 0;
     width: auto;
     height: auto;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;  
+}
+
+/* Seção 01 - Inicio  */
+    /* Inicio - seção 01  */
+.container .secao-01 .secao-nossa-historia {
+    width: 1231px;
+    height: 297px;
+    margin: 60px 138px 90px 71px;
+}
+
+.container .secao-01 .secao-nossa-historia .foto-01 {
+    width: 655px;
+    height: 297px;
+    padding: 0px;
+}
+
+.container .secao-01 .secao-nossa-historia .texto-nossa-historia {
+    width: 536px;
+    height: 191px;
+    margin: 0px 0px 106px 40px;
+    padding: 0px;
+}
+
+.container .secao-01 .secao-nossa-historia .texto-nossa-historia h2 {
+    width: 334px;
+    height: 58px;
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container .secao-01 .secao-nossa-historia .texto-nossa-historia h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 93%;
+    transform: translateX(-100%);
+    width: 165px;
+    height: 5px;
+    background-color: #ff7000;
+}
+
+.container .secao-01 .secao-nossa-historia .texto-nossa-historia p {
+    width: 536px;
+    height: 104px;
+    font-size: 18px;
+    margin: 0px;
+    font-family: "Montserrat Alternates", sans-serif;
+    line-height: 26px;
+}
+    /* Fim - seção 01  */
+
+    /* Inicio - seção 02  */
+.container .secao-01 .secao-nossos-valores {
+    width: 1231px;
+    height: 297px;
+    margin: 0px 138px 130px 71px;
+}
+
+.container .secao-01 .secao-nossos-valores .texto-nossos-valores {
+    width: 536px;
+    height: 191px;
+    margin: 0px 40px 106px 0px;
+    padding: 0px;
+
+}
+
+.container .secao-01 .secao-nossos-valores .texto-nossos-valores h2{
+    width: 361px;
+    height: 58px;
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container .secao-01 .secao-nossos-valores .texto-nossos-valores h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 91%;
+    transform: translateX(-100%);
+    width: 155px;
+    height: 5px;
+    background-color: #ff7000;
+}
+
+.container .secao-01 .secao-nossos-valores .texto-nossos-valores .texto-com-sombra {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container .secao-01 .secao-nossos-valores .texto-nossos-valores  p{
+    width: 536px;
+    height: 104px;
+    font-size: 18px;
+    margin: 0px;
+    font-family: "Montserrat Alternates", sans-serif;
+    line-height: 26px;
+}
+
+.container .secao-01 .secao-nossos-valores .foto-02 {
+    width: 655px;
+    height: 297px;
+    padding: 0px;
+}
+    /* Fim - seção 02  */
+/* Seção 01 - Fim  */
+
+
+
+
+
+
+
+/* Parte do footer */
+.card-footer{
+    margin:0;
+    padding: 0;
+}
+
+footer{
+    background-color: #f8f9fa;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
 }
