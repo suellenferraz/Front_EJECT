@@ -125,23 +125,22 @@ class Footer extends HTMLElement{
             flex-direction: column;
             justify-content: space-between;
             align-items: start;
-            position: fixed;
             bottom: 0;
-            width: 100%; 
+            width: 100%;
             padding: 10px; 
         }
         .colunas-footer {
-            margin-left:6rem;
             display: flex;
             width: 100%;
+            justify-content: space-between;
         }
         .contato {
             display: flex;
             flex-direction: column;
             list-style: none;
             padding: 0;
-            margin: 0;
-            width: 50%;
+            margin-left: 6rem;
+            width: 10rem;
         }
         .contato li {
             margin-bottom: 0.3rem;
@@ -152,21 +151,15 @@ class Footer extends HTMLElement{
             list-style: none;
             padding: 0;
             margin: 0;
-            width: 50%;
+            width: 10rem;
         }
         .central-de-ajuda {
             display: flex;
             flex-direction: column;
             list-style: none;
             padding: 0;
-            margin: 0;
-            width: 50%;
-        }
-
-        .redes-sociais {
-            margin-top: 1rem;
-            width: 7.5rem;
-            height: 1.2rem;
+            margin-right: 6rem;
+           width: 10rem;
         }
 
         .footer-logo{  
@@ -197,7 +190,7 @@ class Footer extends HTMLElement{
        
         .copyrigth {
             margin-left: 6rem;
-            margin-top: 2rem;
+            margin-top: 3rem;
             
 
             font-family: 'Montserrat';
