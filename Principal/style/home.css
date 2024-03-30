@@ -15,3 +15,72 @@ footer{
     margin-left: 0;
     margin-bottom: 0;
 }
+
+.bem-vindo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.texto-bemVindo{
+
+    margin-left: 4rem;
+    margin-top: 150px;
+}
+.texto-bemVindo p{
+    font-size: 20px;
+}
+.texto-bemVindo h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.imagem-bemVindo img{
+    max-width: 350px;
+    margin-left: 150px;
+}
+.explorar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.explorar img{
+    margin-left: 5px;
+    max-width: 90px;
+}
+
+.explorar-cursos{
+    border: 1px solid #ff7000;
+    width: 33%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.explorar-cursos:active{
+    transform: translateY(2px);
+}
+.explorar-cursos span{
+    font-size: 30px;
+    color: #ff7000;
+    margin-left: 2px;
+}
+.explorar-cursos h3{
+    font-size: 16px;
+    margin-left: 5px;
+    display: flex;
+    margin-top: 7px;
+}
+
+.cursos-mais-populares{
+    margin-top: 50px;
+    margin-left: 6.5rem;
+}	
+
+.cursos-mais-populares h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

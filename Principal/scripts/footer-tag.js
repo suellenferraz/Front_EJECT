@@ -127,7 +127,7 @@ class Footer extends HTMLElement{
             align-items: start;
             bottom: 0;
             width: 100%;
-            padding: 10px; 
+           
         }
         .colunas-footer {
             display: flex;

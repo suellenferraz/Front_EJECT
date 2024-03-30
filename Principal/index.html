@@ -11,14 +11,43 @@
     
     <script src="scripts/nav-menu.js" defer></script>
     <script src="scripts/footer-tag.js" defer></script>
+    <script src="scripts/cursos-populas.js" defer></script>
     <title>Mani Cursos - Home</title>
 </head>
 <body>
-    <nav-menu src="img/nav-logo.png"></nav-menu>
-
-    <section class="bem-vindo   m-5">
-        <h1 class="col">Bem vindo a educação <br>Mani de qualidade</h1>
-        <p>Com o Mani cursos você pode ficar tranquilo, seu futuro está em boas mãos.</p>
+    
+    <section class="bem-vindo">
+        <div class="leftCard">
+            <nav-menu class="nav-menu" src="img/nav-logo.png"></nav-menu>
+            <div class="texto-bemVindo">
+                <h1 class="col">Bem vindo a educação <br>Mani de qualidade</h1>
+                <p>Com o Mani cursos você pode ficar tranquilo, seu futuro<br> está em boas mãos.</p>
+                <div class="explorar ">
+                    <div class="explorar-cursos rounded-pill">
+                        <span>
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                        </span>
+                        <h3>EXPLORAR CURSOS</h3>
+                    </div>
+                    <img src="img/home/alunos.png" alt="Alunos">
+                </div>
+            </div>
+        </div>
+        <div class="imagem-bemVindo">
+            <img src="img/home/fotos-esquerda.png" alt="Imagem de boas vindas">
+        </div>
+    </section>
+    
+    <section class="cursos-mais-populares">
+        <h3>Cursos mais populares</h3>
+        <cursos-populares
+        src="img/home/engenharia-computacao.png"
+        titulo="Engenharia de Computação"
+        avaliacao="4.5"
+        dados="Superior - 45h semanais - Semipresencial"
+        informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+        valor="24 x R$ 410,90"
+        ></cursos-populares>
     </section>
 
 
@@ -26,7 +55,7 @@
 
 
         
-    <footer style="position:relative; bottom: 0px;">
+    <footer style="background-color: #ff7000; position: relative;">
         <footer-tag src="img/nav-logo.png" class="card-footer"></footer-tag>
         <div class="redes-sociais"style="width:50%; position: relative; bottom: 100px; left: 106px";>
             <a href="https://www.facebook.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
