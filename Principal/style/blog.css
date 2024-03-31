@@ -1,7 +1,19 @@
+@charset "UTF-8";
 
-
+main
+{
+    padding-left: 152px;
+    padding-right: 152px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+p
+{
+    text-align: justify;
+}
 .titulo
 {
     background-color: #ff7000; 
     color: #ffffff;
+    text-align: center;
 }
