@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 1440px;
-    height: 2887px;
 }
 
 .container{
@@ -13,9 +11,9 @@ body {
 
 /* Seção 01 - Inicio  */
     /* Inicio - seção 01  */
-.container .secao-01 .secao-nossa-historia {
-    width: 1231px;
-    height: 297px;
+.secao-nossa-historia {
+    display: flex;
+    flex-direction: row;
     margin: 60px 138px 90px 71px;
 }
 
@@ -135,8 +133,8 @@ body {
 
 /* Seção 02 - Inicio  */
 .container .secao-02 {
-    width: 1273px;
-    height: 580px;
+    display: flex;
+    flex-direction: row;
     margin: 0px 96px 130px 71px;
     position: relative;
 }
@@ -214,7 +212,7 @@ body {
 .container .secao-03 {
     width: 1440px;
     height: 803px;
-    background-color: #F97B22;
+    background-color: #FF7000;
     border-radius: 300px 300px 0px 0px;
     color: white;
     
