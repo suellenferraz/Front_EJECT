@@ -11,7 +11,6 @@ footer{
     background-color: #f8f9fa;
     position: fixed;
     bottom: 0;
-    width: 100%;
     margin-left: 0;
     margin-bottom: 0;
 }
@@ -77,7 +76,27 @@ footer{
 .cursos-mais-populares{
     margin-top: 100px;
     margin-left: 6.5rem;
+    margin-right: 0;
 }	
+
+.buttons-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 9rem;
+    margin-top: 5rem;
+
+}
+.buttons-cursos button{
+    background-color: white;
+    border: none;
+    
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
 .cursos-mais-populares h3{
     font-size: 35px;
@@ -91,3 +110,103 @@ footer{
     justify-content: space-between;
     margin-right: 6.2rem;
 }
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.secao-nossa-historia {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 6.5rem 7rem 7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-01 {
+    padding: 0px;
+}
+
+.texto-nossa-historia {
+    
+    margin-left: 2rem;
+    padding: 0px;
+}
+
+.texto-nossa-historia h2 {
+
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+}
+.texto-nossa-historia h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 93%;
+    transform: translateX(-100%);
+ 
+    background-color: #F97B22;;
+}
+
+.texto-nossa-historia p {
+    
+    font-size: 18px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    color: #262626;
+}
+
+.alunos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  
+    
+}
+.wrapper{
+    display: flex;
+    animation: scroll 50s linear infinite;
+}
+
+.alunos h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 64px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #262626;
+}
+.lista-alunos{
+    display: flex;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+

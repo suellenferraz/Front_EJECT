@@ -1,6 +1,227 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    width: auto;
-    height: auto;
 }
+
+.container{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* Seção 01 - Inicio  */
+    /* Inicio - seção 01  */
+.secao-nossa-historia {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 138px 90px 71px;
+}
+
+.secao-01 .secao-nossa-historia .foto-01 {
+    padding: 0px;
+}
+
+.secao-01 .secao-nossa-historia .texto-nossa-historia {
+    
+    margin: 0px 0px 106px 40px;
+    padding: 0px;
+}
+
+.secao-01 .secao-nossa-historia .texto-nossa-historia h2 {
+
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+}
+.secao-01 .secao-nossa-historia .texto-nossa-historia h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 93%;
+    transform: translateX(-100%);
+ 
+    background-color: #F97B22;;
+}
+
+.secao-01 .secao-nossa-historia .texto-nossa-historia p {
+    
+    font-size: 18px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    color: #262626;
+}
+    /* Fim - seção 01  */
+
+    /* Inicio - seção 02  */
+.secao-nossos-valores {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 138px 130px 71px;
+}
+
+.secao-01 .secao-nossos-valores .texto-nossos-valores {
+  
+    margin: 0px 40px 106px 0px;
+    padding: 0px;
+
+}
+
+.secao-01 .secao-nossos-valores .texto-nossos-valores h2{
+    
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 62px;
+    color: #262626;
+
+}
+.secao-01 .secao-nossos-valores .texto-nossos-valores h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 91%;
+    transform: translateX(-100%);
+    width: 155px;
+    height: 5px;
+    background-color: #F97B22;;
+}
+
+.secao-01 .secao-nossos-valores .texto-nossos-valores .texto-com-sombra {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.secao-01 .secao-nossos-valores .texto-nossos-valores  p{
+  
+    font-size: 18px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    color: #262626;
+}
+
+.secao-01 .secao-nossos-valores .foto-02 {
+
+    padding: 0px;
+}
+    /* Fim - seção 02  */
+/* Seção 01 - Fim  */
+
+/* Seção 02 - Inicio  */
+.secao-02 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 96px 130px 71px;
+    position: relative;
+    width: 100%;
+}
+
+.secao-02 aside h2 {
+    position: absolute;
+    
+    top: 110px;
+    left: 84px;
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -2px; 
+    color: white;
+}
+
+.secao-02 aside p {
+    position: absolute;
+  
+    top: 275px;
+    left: 84px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F1F1F1;
+}
+
+.secao-02 aside .botao-equipe {
+    position: absolute;
+   
+    top: 358px;
+    left: 84px;
+    margin-top: 20px;
+    background-color: #F97B22;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secao-02 aside .botao-equipe a {
+    text-decoration: none;
+    color: white;
+}
+
+.secao-02 aside .botao-equipe .texto-nossa-equipe {
+ 
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 7.5%;
+    color: white;
+}
+
+.secao-02 aside .botao-equipe .icon-nossa-equipe {
+    font-size: 24px;
+    color: white;
+}
+
+
+/*Seção 02 editada */
+
+
+
+/* Seção 02 - Fim  */
+
+/* Seção 03 - Inicio  */
+.secao-03 {
+
+    background-color: #FF7000;
+    border-radius: 300px 300px 0px 0px;
+    color: white;
+    
+}
+
+.secao-03 .nossa-equipe {
+
+    margin: 0px 266px 90px 266px;
+    text-align: center;
+    
+}
+
+
+
+
+
+/* Parte do footer */
+.card-footer{
+    margin:0;
+    padding: 0;
+}
+
