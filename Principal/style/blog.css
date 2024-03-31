@@ -2,16 +2,16 @@
 
 main
 {
-    padding-left: 152px;
-    padding-right: 152px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 p
 {
     text-align: justify;
 }
-.titulo
+.headline
 {
     background-color: #ff7000; 
     color: #ffffff;
