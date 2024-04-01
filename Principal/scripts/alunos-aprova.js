@@ -98,7 +98,24 @@ class alunosAprova extends HTMLElement{
 customElements.define('alunos-aprova', alunosAprova);
 
 
-// Clonar os alunos e adicioná-los ao final para criar o efeito infinito
-const listaAlunos = document.querySelector('.lista-alunos');
-const clones = listaAlunos.cloneNode(true);
-listaAlunos.appendChild(clones);
+
+//clones da lista de alunos
+
+// Selecionar a lista de alunos original
+const listaAlunosOriginal = document.querySelector('.lista-alunos');
+
+// Função para clonar e adicionar os alunos ao final da lista de forma contínua
+function adicionarClonesContinuamente() {
+    // Clonar a lista de alunos
+    const clones = listaAlunosOriginal.cloneNode(true);
+
+    // Adicionar os clones ao final da lista de alunos original
+    listaAlunosOriginal.parentNode.appendChild(clones);
+
+    // Agendar a próxima adição de clones
+    setTimeout(adicionarClonesContinuamente, 200); // ajuste o tempo conforme necessário
+}
+
+// Iniciar o processo de adição contínua de clones
+adicionarClonesContinuamente();
+

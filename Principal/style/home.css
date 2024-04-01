@@ -18,11 +18,12 @@ footer{
 .bem-vindo{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 10rem;
+    justify-content: space-between;
 }
 .texto-bemVindo{
 
-    margin-left: 4rem;
+    margin-left: 10rem;
     margin-top: 9.375rem;
 }
 .texto-bemVindo p{
@@ -34,8 +35,8 @@ footer{
 }
 
 .imagem-bemVindo img{
-    max-width: 21.875rem;
-    margin-left: 9.375rem;
+    max-width: 100%;
+    margin-right: 9rem;
 }
 .explorar{
     width: 100%;
@@ -75,7 +76,7 @@ footer{
 
 .cursos-mais-populares{
     margin-top: 100px;
-    margin-left: 6.5rem;
+    margin-left: 10rem;
     margin-right: 0;
 }	
 
@@ -118,7 +119,7 @@ footer{
 .secao-nossa-historia {
     display: flex;
     flex-direction: row;
-    margin: 5rem 6.5rem 7rem 7rem;
+    margin: 5rem 6.5rem 7rem 10rem;
     justify-content: center;
     align-items: center;
 }
@@ -195,7 +196,11 @@ footer{
     text-align: center;
     color: #262626;
 }
+
+
+
 .lista-alunos{
+
     display: flex;
 }
 
