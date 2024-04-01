@@ -1,6 +1,15 @@
 body{
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: 0auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card-footer{
     margin:0;
@@ -18,25 +27,51 @@ footer{
 .bem-vindo{
     display: flex;
     flex-direction: row;
-    margin-left: 10rem;
     justify-content: space-between;
 }
 .texto-bemVindo{
-
-    margin-left: 10rem;
-    margin-top: 9.375rem;
+    margin-top: 12rem;
+    
 }
 .texto-bemVindo p{
     font-size: 1.25rem;
+
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    
+
+color: #262626;
+
+
 }
 .texto-bemVindo h1{
     font-size: 3.125rem;
     font-weight: bold;
+ 
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 64px;
+    /* or 116% */
+    letter-spacing: -0.02em;
+
+    color: #262626;
+
 }
 
+.texto-bemVindo span{
+    color: #ff7000;
+	}
+
 .imagem-bemVindo img{
-    max-width: 100%;
-    margin-right: 9rem;
+    max-width: 80%;
+    margin-left: 7rem;
 }
 .explorar{
     width: 100%;
@@ -75,41 +110,32 @@ footer{
 }
 
 .cursos-mais-populares{
-    margin-top: 100px;
-    margin-left: 10rem;
-    margin-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
 }	
 
-.buttons-cursos{
+
+.carousel{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    margin-right: 9rem;
-    margin-top: 5rem;
+}
 
-}
-.buttons-cursos button{
-    background-color: white;
-    border: none;
-    
-    margin-right: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-}
+
 
 .cursos-mais-populares h3{
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 .lista-cursos{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 6.2rem;
 }
 .container{
     margin: 0;
@@ -121,7 +147,7 @@ footer{
     flex-direction: row;
     margin: 5rem 6.5rem 7rem 10rem;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .foto-01 {
@@ -129,7 +155,7 @@ footer{
 }
 
 .texto-nossa-historia {
-    
+    width: 40%;
     margin-left: 2rem;
     padding: 0px;
 }
@@ -137,14 +163,16 @@ footer{
 .texto-nossa-historia h2 {
 
     text-align: left;
-    font-size: 35px;
+    font-size: 48px;
     margin-bottom: 30px;
     position: relative;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     line-height: 62px;
+    color: #262626;
 }
+
 .texto-nossa-historia h2::after {
     content: '';
     position: absolute;
@@ -159,7 +187,7 @@ footer{
     
     font-size: 18px;
     margin: 0px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-weight: 400;
     line-height: 22px;
     font-style: normal;
@@ -219,7 +247,7 @@ footer{
     display: flex;
     justify-content: end;
     margin-top: 10px;
-    margin-right: 8rem;
+    margin-right: 2rem;
 }
 
 .buttons button{

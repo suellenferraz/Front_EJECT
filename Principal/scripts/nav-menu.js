@@ -66,7 +66,6 @@ class NavMenu extends HTMLElement {
                     }
                     .nav {
                         margin-top: 1rem;
-                        margin-left: 3rem;
                         background-color: #fff;
                         color: #000;
                         padding: 10px;

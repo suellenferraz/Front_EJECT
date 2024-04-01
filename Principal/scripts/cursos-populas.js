@@ -120,7 +120,13 @@ class cursosPopulares extends HTMLElement{
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
+            cursor: pointer;
           }
+
+          .botaoVerMais:active{
+            transform: translateY(2px);
+          }
+
             .valorAVista{
                 
                 font-family: 'Montserrat';
