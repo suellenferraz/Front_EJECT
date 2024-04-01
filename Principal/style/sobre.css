@@ -1,38 +1,43 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.container{
+*{
     margin: 0px;
     padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Seção 01 - Inicio  */
     /* Inicio - seção 01  */
-.secao-nossa-historia {
+.secao-01 {
+    width: 100%;
+    max-width: 1231px;
+    margin: 60px 138px 90px 70px;
+
+}
+
+.secao-01 .secao-nossa-historia {
     display: flex;
-    flex-direction: row;
-    margin: 60px 138px 90px 71px;
+    margin-bottom: 90px;
+
 }
 
-.container .secao-01 .secao-nossa-historia .foto-01 {
-    width: 655px;
-    height: 297px;
-    padding: 0px;
+.secao-01 .secao-nossa-historia .foto-01{
+    max-width: 655px;
+    height: auto;
 }
 
-.container .secao-01 .secao-nossa-historia .texto-nossa-historia {
-    width: 536px;
-    height: 191px;
-    margin: 0px 0px 106px 40px;
-    padding: 0px;
+.secao-01 .secao-nossa-historia .texto-nossa-historia {
+    max-width: 536px;
+    height: auto;
+    margin-bottom: 106px;
+    margin-left: 40px;
 }
 
-.container .secao-01 .secao-nossa-historia .texto-nossa-historia h2 {
-    width: 334px;
-    height: 58px;
+.secao-01 .secao-nossa-historia .texto-nossa-historia h2 {
     text-align: left;
     font-size: 48px;
     margin-bottom: 30px;
@@ -41,216 +46,28 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 62px;
+
 }
 
-.container .secao-01 .secao-nossa-historia .texto-nossa-historia h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 93%;
-    transform: translateX(-100%);
-    width: 165px;
-    height: 5px;
-    background-color: #F97B22;;
-}
-
-.container .secao-01 .secao-nossa-historia .texto-nossa-historia p {
-    width: 536px;
-    height: 104px;
+.secao-01 .secao-nossa-historia .texto-nossa-historia p {
     font-size: 18px;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 26px;
     font-style: normal;
-    color: #262626;
+    
+
 }
+
+
+
     /* Fim - seção 01  */
 
     /* Inicio - seção 02  */
-.container .secao-01 .secao-nossos-valores {
-    width: 1231px;
-    height: 297px;
-    margin: 0px 138px 130px 71px;
+.secao-01 .secao-nossos-valores {
+    display: flex;
 }
 
-.container .secao-01 .secao-nossos-valores .texto-nossos-valores {
-    width: 536px;
-    height: 191px;
-    margin: 0px 40px 106px 0px;
-    padding: 0px;
-
-}
-
-.container .secao-01 .secao-nossos-valores .texto-nossos-valores h2{
-    width: 361px;
-    height: 58px;
-    text-align: left;
-    font-size: 48px;
-    margin-bottom: 30px;
-    position: relative;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    line-height: 62px;
-    color: #262626;
-
-}
-
-.container .secao-01 .secao-nossos-valores .texto-nossos-valores h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 91%;
-    transform: translateX(-100%);
-    width: 155px;
-    height: 5px;
-    background-color: #F97B22;;
-}
-
-.container .secao-01 .secao-nossos-valores .texto-nossos-valores .texto-com-sombra {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-}
-
-.container .secao-01 .secao-nossos-valores .texto-nossos-valores  p{
-    width: 536px;
-    height: 104px;
-    font-size: 18px;
-    margin: 0px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    line-height: 26px;
-    font-style: normal;
-    color: #262626;
-}
-
-.container .secao-01 .secao-nossos-valores .foto-02 {
-    width: 655px;
-    height: 297px;
-    padding: 0px;
-}
     /* Fim - seção 02  */
 /* Seção 01 - Fim  */
-
-/* Seção 02 - Inicio  */
-.container .secao-02 {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 96px 130px 71px;
-    position: relative;
-}
-
-.container .secao-02 aside h2 {
-    position: absolute;
-    width: 749px;
-    height: 150px;
-    top: 110px;
-    left: 84px;
-    margin: 0px;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 64px;
-    line-height: 80px;
-    letter-spacing: -2px; 
-    color: white;
-}
-
-.container .secao-02 aside p {
-    position: absolute;
-    width: 616px;
-    height: 83px;
-    top: 275px;
-    left: 84px;
-    margin: 0px;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #F1F1F1;
-}
-
-.container .secao-02 aside .botao-equipe {
-    position: absolute;
-    width: 184.35px;
-    height: 40px;
-    top: 358px;
-    left: 84px;
-    margin-top: 20px;
-    background-color: #F97B22;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.container .secao-02 aside .botao-equipe a {
-    text-decoration: none;
-    color: white;
-}
-
-.container .secao-02 aside .botao-equipe .texto-nossa-equipe {
-    width: 126px;
-    height: 24px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 7.5%;
-    color: white;
-}
-
-.container .secao-02 aside .botao-equipe .icon-nossa-equipe {
-    font-size: 24px;
-    color: white;
-}
-/* Seção 02 - Fim  */
-
-/* Seção 03 - Inicio  */
-.container .secao-03 {
-    width: 1440px;
-    height: 803px;
-    background-color: #FF7000;
-    border-radius: 300px 300px 0px 0px;
-    color: white;
-    
-}
-
-.container .secao-03 .nossa-equipe {
-    width: 907px;
-    height: 205px;
-    margin: 0px 266px 90px 266px;
-    text-align: center;
-    
-}
-
-.container .secao-03 .nossa-equipe h2 {
-    
-}
-
-.container .secao-03 .nossa-equipe p {
-  
-}
-
-
-
-
-
-
-
-/* Parte do footer */
-.card-footer{
-    margin:0;
-    padding: 0;
-}
-
-footer{
-    background-color: #f8f9fa;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 0;
-}
