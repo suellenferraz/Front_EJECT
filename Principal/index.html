@@ -41,46 +41,97 @@
         
         <section class="cursos-mais-populares">
             <h3>Cursos mais populares</h3>
-            <div class="buttons-cursos">
-                <button onclick="prevSlide()">
-                    <i class="bi bi-arrow-left"></i>
-                </button>
-                <button onclick="nextSlide()">
-                    <i class="bi bi-arrow-right" ></i>
-                </button>
-            </div>
-            <div class="lista-cursos">
-                <cursos-populares
-                    src="img/home/engenharia-computacao.png"
-                    titulo="Engenharia de Computação"
-                    avaliacao="4.7"
-                    dados="Superior - 45h semanais - Semipresencial"
-                    informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
-                    valorParcela="24 x R$ 410,90"
-                    valorAVista="R$ 8.880,00"
-                ></cursos-populares>
-    
-                <cursos-populares
-                    src="img/home/enfermagem.png"
-                    titulo="Enfermagem"
-                    accesskey="4.4"
-                    dados = "Superior - 45h semanais - Presencial"
-                    informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
-                    valorParcela="24 x R$ 469,90"
-                    valorAVista="R$ 10.150,00">
-                </cursos-populares>
-    
-                <cursos-populares
-                    src="img//home/designe-grafico.png"
-                    titulo="Designe Gráfico"
-                    avaliacao="4.6"
-                    dados="Técnico - 30h semanais - Online"
-                    informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
-                    valorParcela="24 x R$ 112,90"
-                    valorAVista="R$2.440,00"
-                ></cursos-populares>
-    
-            </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="buttons">
+                        <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span>
+                            <i class="bi bi-arrow-left"></i>
+                          </span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span>
+                            <i class="bi bi-arrow-right"></i>
+                          </span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+            
+                    </div>
+                  <div class="carousel-item active">
+                    <div class="lista-cursos">
+                        <cursos-populares
+                            src="img/home/engenharia-computacao.png"
+                            titulo="Engenharia de Computação"
+                            avaliacao="4.7"
+                            dados="Superior - 45h semanais - Semipresencial"
+                            informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                            valorParcela="24 x R$ 410,90"
+                            valorAVista="R$ 8.880,00"
+                        ></cursos-populares>
+            
+                        <cursos-populares
+                            src="img/home/enfermagem.png"
+                            titulo="Enfermagem"
+                            accesskey="4.4"
+                            dados = "Superior - 45h semanais - Presencial"
+                            informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                            valorParcela="24 x R$ 469,90"
+                            valorAVista="R$ 10.150,00">
+                        </cursos-populares>
+            
+                        <cursos-populares
+                            src="img//home/designe-grafico.png"
+                            titulo="Designe Gráfico"
+                            avaliacao="4.6"
+                            dados="Técnico - 30h semanais - Online"
+                            informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                            valorParcela="24 x R$ 112,90"
+                            valorAVista="R$2.440,00"
+                        ></cursos-populares>
+            
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="lista-cursos">
+                        <cursos-populares
+                            src="img/home/engenharia-computacao.png"
+                            titulo="Engenharia de Computação"
+                            avaliacao="4.7"
+                            dados="Superior - 45h semanais - Semipresencial"
+                            informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                            valorParcela="24 x R$ 410,90"
+                            valorAVista="R$ 8.880,00"
+                        ></cursos-populares>
+            
+                        <cursos-populares
+                            src="img/home/enfermagem.png"
+                            titulo="Enfermagem"
+                            accesskey="4.4"
+                            dados = "Superior - 45h semanais - Presencial"
+                            informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                            valorParcela="24 x R$ 469,90"
+                            valorAVista="R$ 10.150,00">
+                        </cursos-populares>
+            
+                        <cursos-populares
+                            src="img//home/designe-grafico.png"
+                            titulo="Designe Gráfico"
+                            avaliacao="4.6"
+                            dados="Técnico - 30h semanais - Online"
+                            informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                            valorParcela="24 x R$ 112,90"
+                            valorAVista="R$2.440,00"
+                        ></cursos-populares>
+            
+                    </div>
+                  </div>
+        
+                </div>
+
+        
+                </div>
+              </div>
         </section>
     
         <section class="nossa-historia">

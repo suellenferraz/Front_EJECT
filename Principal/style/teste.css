@@ -1,23 +1,13 @@
-.container {
-  overflow: hidden;
-  width: 100%;
-  padding: 20px;
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 4rem;
 }
 
-.alunos-container {
-  display: flex;
-  animation: slide-animation 10s linear infinite; /* Ajuste o tempo conforme necessário */
-}
-
-.aluno {
-  flex: 0 0 auto; /* Permite que os alunos tenham largura variável */
-  width: 200px; /* Defina a largura de cada aluno conforme necessário */
-  height: 100px; /* Defina a altura de cada aluno conforme necessário */
-  background-color: #f0f0f0;
-  margin-right: 10px; /* Adicione um espaçamento entre os alunos */
-}
-
-@keyframes slide-animation {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
+.buttons button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+  }
