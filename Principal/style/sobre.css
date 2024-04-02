@@ -61,6 +61,29 @@ body {
     display: inline-block; 
 }
 
+.carouselExampleIndicators {
+    width: 65.98px;
+    height: 6.56px;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    background-color: E1E5EE;
+    position: relative; 
+    width: 6.6px;
+    height: 6.56px;
+    border-radius: 50%;
+    margin-left: 14.85px;
+    margin-right: 14.85px;
+}
+
+#carouselExampleIndicators .carousel-indicators button .active {
+
+}
+
+#carouselExampleIndicators .carousel-indicators button:hover{
+    background-color: black;
+}
+  
     /* Fim - seção 01  */
 
     /* Inicio - seção 02  */
