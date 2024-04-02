@@ -111,6 +111,25 @@ class NavMenu extends HTMLElement {
                         color: #000;
                         text-decoration: none;
                     }
+
+
+
+
+                    @media screen and (max-width: 768px) {
+                        .nav {
+                            flex-direction: column;
+                            width: 100%;
+                        }
+                        .nav-menu {
+                            margin-top: 1rem;
+                        }
+                        .linha-vertical{
+                            display:none;
+                        
+                        }
+
+
+                    }
                 `;
 
         nav.appendChild(menu);

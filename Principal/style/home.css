@@ -40,8 +40,8 @@ footer{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 38px;
+    font-size: 1.25rem;
+    line-height: 2.375rem;
     
 
 color: #262626;
@@ -56,9 +56,8 @@ color: #262626;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 3.438rem;
     line-height: 64px;
-    /* or 116% */
     letter-spacing: -0.02em;
 
     color: #262626;
@@ -79,14 +78,14 @@ color: #262626;
     flex-direction: row;
 }
 .explorar img{
-    margin-left: 5px;
-    max-width: 90px;
+    margin-left: 0.313rem;
+    max-width: 5.625rem;
 }
 
 .explorar-cursos{
     border: 1px solid #ff7000;
     width: 33%;
-    height: 35px;
+    height: 2.188rem;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -98,15 +97,15 @@ color: #262626;
     transform: translateY(2px);
 }
 .explorar-cursos span{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #ff7000;
-    margin-left: 2px;
+    margin-left: 0.125rem;
 }
 .explorar-cursos h3{
-    font-size: 16px;
-    margin-left: 5px;
+    font-size: 1rem;
+    margin-left: 0.313rem;
     display: flex;
-    margin-top: 7px;
+    margin-top: 0.438rem;
 }
 
 .cursos-mais-populares{
@@ -128,7 +127,7 @@ color: #262626;
 
 
 .cursos-mais-populares h3{
-    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: bold;
 }
 
@@ -150,8 +149,9 @@ color: #262626;
     align-items: start;
 }
 
-.foto-01 {
+.foto-01 img {
     padding: 0px;
+    max-width: 100%;    
 }
 
 .texto-nossa-historia {
@@ -163,13 +163,13 @@ color: #262626;
 .texto-nossa-historia h2 {
 
     text-align: left;
-    font-size: 48px;
-    margin-bottom: 30px;
+    font-size: 3rem;
+    margin-bottom: 1.875rem;
     position: relative;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    line-height: 62px;
+    line-height: 3.875rem;
     color: #262626;
 }
 
@@ -185,11 +185,11 @@ color: #262626;
 
 .texto-nossa-historia p {
     
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0px;
     font-family: "Montserrat";
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.375rem;
     font-style: normal;
     color: #262626;
 }
@@ -211,7 +211,7 @@ color: #262626;
 }
 
 .alunos h3{
-    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: bold;
     margin-bottom: 5rem;
 
@@ -219,7 +219,7 @@ color: #262626;
     font-style: normal;
     font-weight: 700;
 
-    line-height: 64px;
+    line-height: 4rem;
     /* identical to box height, or 133% */
     text-align: center;
     color: #262626;
@@ -246,13 +246,25 @@ color: #262626;
 .buttons{
     display: flex;
     justify-content: end;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     margin-right: 2rem;
 }
 
 .buttons button{
-    margin-left: 10px;
-    padding: 5px 10px;
+    margin-left: 0.625rem;
+    padding: 0.313rem 0.625rem;
     border: none;
     background-color: white;
   }
+
+  @media screen and (max-width: 768px) {
+    .imagem-bemVindo img{
+        display: none;
+    }
+    .secao-nossa-historia{
+        flex-direction: column;
+        margin: 5rem 0 7rem 0;
+    }
+
+
+}
