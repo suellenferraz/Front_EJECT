@@ -1,8 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    width: auto;
-    height: auto;
 }
 
 .card-footer{
@@ -20,35 +18,29 @@ footer{
 }
 
 .fale-conosco-container{
-    display: flex;
-    flex-direction: row;
+
 }
 
 .leftcard{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+
 }
 
-.form-container{
-    display: flex;
-    flex-direction: column;
+.texto-fale-conosco{
+
 }
 
-.form-container input{
-    width: 100%;
+.abaixo-fale-conosco{
+
 }
 
-.button{
-    width: 184.35px;
-    height: 40px;
-    position: absolute;
-    top: 358px;
-    left: 84px;
-    margin-top: 20px;
-    background-color: #F97B22;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.form-control{
+
+}
+
+.map{
+
+}
+
+.texto-mapa{
+
 }
