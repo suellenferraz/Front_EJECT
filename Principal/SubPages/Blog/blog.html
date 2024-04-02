@@ -16,83 +16,100 @@
     <link rel="shortcut icon" href="../../img/blog/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav-menu src="../../img/nav-logo.png"></nav-menu>
+    <header>
+        <nav-menu src="../../img/nav-logo.png"></nav-menu>
 
-
-<!--INICIAR CÓDIGO DO BLOG AQUI-->
-
-        <div class="headline">
+        <section class="titulo">
             <h1>Últimas Notícias</h1>
-            <h2>Est recusandae fugit qui quia voluptas ut ratione <br> iusto aut accusamus voluptatem.</h2>
-        </div>
-        
-        <main>
-            <!-- BARRA DE PESQUISA -->
-            <div class="row">
-                <form>
-                    <div class="card p-3 d-flex flex-row">
-                        <input class="form-control mr-sm-2" type="search" style="margin-left: 20px;" placeholder="Buscar Cursos" aria-label="Search">
-                        <button class="btn btn-outline-primary my-2 my-sm-0 mt-3 " type="submit">Consultar</button>
-                    </div>
-                </form>
-            </div>
-            <!-- FIM BARRA DE PESQUISA -->
-            <div class="row">
-                <!-- QUADROS -->
-                <div class="col col-lg-4">
-                        <div class="m-2">
-                            <img src="../../img/blog/blog_image.png" class="img-fluid rounded" alt="Responsive image">
-                            <h3 class="mb-0"><a href="blog_post.html" rel="next">Transforme sua Carreira: Descubra os Cursos Online Mais Procurados do...</a></h3>
-                            <div class= "mt-2">
-                                <p class="text-justify">Lorem ipsum dolor sit amet. Et voluptatem consectetur ad repudiandae autem et magni officiis aut facere tempore nam eligendi quod ut voluptatem iure ut voluptas eveniet.’</p>
-                            </div>
-                            <div class= "mt-2">
-                                <p class="text-justify mb-0">16/05/2021</p>
-                            </div>
-                        </div>
-                </div>
-                <!-- FIM QUADROS -->
-            </div>
-            <div class="row">
-                <!-- QUADROS -->
-                <div class="col col-lg-4">
-                        <div class="m-2">
-                            <img src="../../img/blog/blog_image.png" class="img-fluid rounded" alt="Responsive image">
-                            <h3 class="mb-0"><a href="blog_post.html" rel="next">Transforme sua Carreira: Descubra os Cursos Online Mais Procurados do...</a></h3>
-                            <div class= "mt-2">
-                                <p class="text-justify">Lorem ipsum dolor sit amet. Et voluptatem consectetur ad repudiandae autem et magni officiis aut facere tempore nam eligendi quod ut voluptatem iure ut voluptas eveniet.’</p>
-                            </div>
-                            <div class= "mt-2">
-                                <p class="text-justify mb-0">16/05/2021</p>
-                            </div>
-                        </div>
-                </div>
-                <!-- FIM QUADROS -->
-            </div>
-            <button>Carregar mais</button>
-        </main>
+            <p>Est recusandae fugit qui quia voluptas ut ratione iusto aut accusamus voluptatem.</p>
+        </section>
+    </header>
 
-<!--FIM DO CÓDIGO DO BLOG AQUI-->
-        
-        <footer>
-            <footer-tag src="../../img/nav-logo.png" class="card-footer"></footer-tag>
-            <div class="redes-sociais"style="width:50%; position: relative; bottom: 100px; left: 106px";>
-                <a href="https://www.facebook.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
-                    <i class="bi bi-facebook mx-1"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/eject?originalSubdomain=br"  class="text-decoration-none link-dark" target="_blank">
-                    <i class="bi bi-linkedin mx-1"></i>
-                </a>
-                <a href="https://twitter.com/ufrnbr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none link-dark" target="_blank">
-                    <i class="bi bi-twitter mx-1" ></i>
-                </a>
-                <a href="https://www.instagram.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
-                    <i class="bi bi-instagram mx-1"></i>
-                </a>
+    <!--INICIAR MAIN-->
+    <main>
+
+        <!-- BARRA DE PESQUISA -->
+        <section class="pesquisa">
+            <form>
+                <input type="text" placeholder="Buscar Cursos" name="Search">
+                <button type="submit">Lupa*</i></button>
+            </form>
+        </section>
+        <!-- FIM BARRA DE PESQUISA -->
+
+        <section class="quadro">
+        <!-- QUADROS -->
+            <div class="post">
+                <div class="imagem"></div>
+                <h3>Transforme sua Carreira: Descubra os Cursos Online Mais Procurados do...</h3>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure aliquam, deleniti sequi hic dolorum, iste totam nobis debitis temporibus illo vitae quisquam libero maxime asperiores minima. Sequi, dolorem debitis!</p>
+                </article>
+                <div class="info">
+                    <div class="curtida">Curtida*</div>
+                    <div class="data-post">16/05/2021</div>
+                    <div class="link-post"><a href="blog_post.html" rel="next">Mostrar mais</a></div>
+                </div>
             </div>
-        </footer>
+
+        <!-- QUADROS -->
+            <div class="post">
+                <div class="imagem"></div>
+                <h3>Transforme sua Carreira: Descubra os Cursos Online Mais Procurados do...</h3>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure aliquam, deleniti sequi hic dolorum, iste totam nobis debitis temporibus illo vitae quisquam libero maxime asperiores minima. Sequi, dolorem debitis!</p>
+                </article>
+                <div class="info">
+                    <div class="curtida">Curtida*</div>
+                    <div class="data-post">16/05/2021</div>
+                    <div class="link-post"><a href="blog_post.html" rel="next">Mostrar mais</a></div>
+                </div>
+            </div>
+
+        <!-- QUADROS -->
+            <div class="post">
+                <div class="imagem"></div>
+                <h3>Transforme sua Carreira: Descubra os Cursos Online Mais Procurados do...</h3>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure aliquam, deleniti sequi hic dolorum, iste totam nobis debitis temporibus illo vitae quisquam libero maxime asperiores minima. Sequi, dolorem debitis!</p>
+                </article>
+                <div class="info">
+                    <div class="curtida">Curtida*</div>
+                    <div class="data-post">16/05/2021</div>
+                    <div class="link-post"><a href="blog_post.html" rel="next">Mostrar mais</a></div>
+                </div>
+            </div>
+
+        <!-- FIM DE QUADROS -->
+        </section>
+
+        <section class="botao-mais">
+            <div>
+                <button type="button">Carregar Mais</button>
+            </div>
+        </section>
+        
+    </main>
+    <!--FIM DO MAIN-->
     
-    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
-    </html>
+    <footer>
+        <footer-tag src="../../img/nav-logo.png" class="card-footer"></footer-tag>
+        <div class="redes-sociais"style="width:50%; position: relative; bottom: 100px; left: 106px";>
+            <a href="https://www.facebook.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
+                <i class="bi bi-facebook mx-1"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/eject?originalSubdomain=br"  class="text-decoration-none link-dark" target="_blank">
+                <i class="bi bi-linkedin mx-1"></i>
+            </a>
+            <a href="https://twitter.com/ufrnbr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none link-dark" target="_blank">
+                <i class="bi bi-twitter mx-1" ></i>
+            </a>
+            <a href="https://www.instagram.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
+                <i class="bi bi-instagram mx-1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

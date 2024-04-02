@@ -1,19 +1,167 @@
 @charset "UTF-8";
 
+
 main
 {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin: 5% 10%
 }
-p
+.capa
+{
+    width: 100%;
+    height: 270px;
+}
+.titulo
+{
+    background-color: #ff7000;
+    color: #ffffff;
+
+    margin: 5% 0% auto;
+    width: 100%;
+    height: 200px;
+}
+.titulo h1
+{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+
+    margin: auto;
+    padding: 2%;
+    padding-bottom: 0%;
+    width: 36%;
+}
+.titulo p
+{
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: auto;
+    padding: 2%;
+    width: 30%;
+}
+#manchete
+{
+    background-color: #ffffff;
+    color: black;
+    margin: 2.5% 0%;
+    height: 100px;
+}
+#manchete h1
 {
     text-align: justify;
+    padding: 0%;
+    width: 100%;
 }
-.headline
+#manchete p
 {
-    background-color: #ff7000; 
+    text-align: justify;
+    padding: 0%;
+    width: 100%;
+}
+.texto
+{
+    margin: 5% 0%;
+    text-align: justify;
+
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+}.texto *
+{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+
+    float: left;
+    text-align: justify;
+}
+.texto img
+{
+    float: right;
+    margin: 2% 0%;
+}
+.pesquisa
+{
+    display: flex;
+    margin-right: 5%;
+}
+.pesquisa *
+{
+    border-radius: 45px;
+    margin-left: auto;
+}
+.quadro
+{
+    overflow: hidden;
+    width: 100%;
+}
+.post
+{
+    width: 500px;
+    height: 520px;
+    border-radius: 20px;
+    margin: 5% 2.5%;
+    padding: 2.5%;
+
+    float: left;
+    text-align: justify;
+}
+.imagem 
+{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+
+    background-image: url(../img/blog/blog_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner
+{
+    height: 100%;
+
+    background-image: url(../img/blog/post_banner.png);
+}
+.info
+{
+    display: flex;
+    justify-content: space-between;
+}
+.info .link-post
+{
+    margin-left: auto;
+
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #ff7000;
+}
+button
+{
+    background: #ffffff;
+}
+button:hover
+{
+    background-color: #ff7000;
     color: #ffffff;
-    text-align: center;
+}
+.botao-mais
+{
+    display: flex;
+}
+.botao-mais *
+{
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    border-radius: 45px;
+
+    font-size: 14;
+    font-weight: 500;
 }
