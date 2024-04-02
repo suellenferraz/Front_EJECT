@@ -18,3 +18,37 @@ footer{
     margin-left: 0;
     margin-bottom: 0;
 }
+
+.fale-conosco-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftcard{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input{
+    width: 100%;
+}
+
+.button{
+    width: 184.35px;
+    height: 40px;
+    position: absolute;
+    top: 358px;
+    left: 84px;
+    margin-top: 20px;
+    background-color: #F97B22;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
