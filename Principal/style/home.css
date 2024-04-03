@@ -69,8 +69,8 @@ color: #262626;
 	}
 
 .imagem-bemVindo img{
-    max-width: 80%;
-    margin-left: 7rem;
+    max-width: 90%;
+    margin-left: 4rem;
 }
 .explorar{
     width: 100%;
@@ -114,6 +114,7 @@ color: #262626;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin-top: 8rem;
 
 }	
 
