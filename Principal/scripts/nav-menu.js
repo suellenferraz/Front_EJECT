@@ -119,9 +119,12 @@ class NavMenu extends HTMLElement {
                         .nav {
                             flex-direction: column;
                             width: 100%;
+                            justify-content: center;
+                            align-items: center;
                         }
                         .nav-menu {
                             margin-top: 1rem;
+                            display:none;
                         }
                         .linha-vertical{
                             display:none;

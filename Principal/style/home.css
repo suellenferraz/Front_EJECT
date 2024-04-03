@@ -51,7 +51,6 @@ color: #262626;
 .texto-bemVindo h1{
     font-size: 3.125rem;
     font-weight: bold;
- 
 
     font-family: 'DM Sans';
     font-style: normal;
@@ -59,8 +58,9 @@ color: #262626;
     font-size: 3.438rem;
     line-height: 64px;
     letter-spacing: -0.02em;
-
     color: #262626;
+
+    margin-top: 18rem;
 
 }
 

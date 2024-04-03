@@ -113,7 +113,7 @@ function adicionarClonesContinuamente() {
     listaAlunosOriginal.parentNode.appendChild(clones);
 
     // Agendar a próxima adição de clones
-    setTimeout(adicionarClonesContinuamente, 200); // ajuste o tempo conforme necessário
+    setTimeout(adicionarClonesContinuamente, 1000); // ajuste o tempo conforme necessário
 }
 
 // Iniciar o processo de adição contínua de clones
