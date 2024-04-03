@@ -17,20 +17,25 @@ footer{
     margin-bottom: 0;
 }
 
-.fale-conosco-container{
-
-}
-
-.leftcard{
-
+section{
+    display: flex;
+    margin: 58px 150px 130px 97px;
+    flex-direction: row;
 }
 
 .texto-fale-conosco{
-
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
 }
 
 .abaixo-fale-conosco{
-
+    font-family: "Montserrat", sans-serif;
+    color: rgba(149, 161, 187, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .form-control{
@@ -38,9 +43,18 @@ footer{
 }
 
 .map{
-
+    max-width: 642px;
+    height: auto;
+    display: block;
 }
 
 .texto-mapa{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
 
+.map iframe{
+    max-width: 642px;
 }
