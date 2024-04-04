@@ -1,34 +1,40 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.container{
+*{
     margin: 0px;
     padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Seção 01 - Inicio  */
     /* Inicio - seção 01  */
-.secao-nossa-historia {
-    display: flex;
-    flex-direction: row;
-    margin: 60px 138px 90px 71px;
+.secao-01 {
+    width: 100%;
+    max-width: 1231px;
+    margin: 60px 138px 90px 70px;
+
 }
 
-.secao-01 .secao-nossa-historia .foto-01 {
-    padding: 0px;
+.secao-01 .secao-nossa-historia {
+    display: flex;
+    margin-bottom: 90px;
+    height: 297px;
+
 }
 
 .secao-01 .secao-nossa-historia .texto-nossa-historia {
-    
-    margin: 0px 0px 106px 40px;
-    padding: 0px;
+    max-width: 536px;
+    height: auto;
+    margin-bottom: 106px;
+    margin-left: 40px;
 }
 
-.secao-01 .secao-nossa-historia .texto-nossa-historia h2 {
 
+.secao-01 .secao-nossa-historia .texto-nossa-historia h2 {
     text-align: left;
     font-size: 48px;
     margin-bottom: 30px;
@@ -37,100 +43,101 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 62px;
-}
-.secao-01 .secao-nossa-historia .texto-nossa-historia h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 93%;
-    transform: translateX(-100%);
- 
-    background-color: #F97B22;;
+    color: black;
 }
 
 .secao-01 .secao-nossa-historia .texto-nossa-historia p {
-    
     font-size: 18px;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 26px;
     font-style: normal;
-    color: #262626;
+    
 }
+
+.secao-01 .secao-nossa-historia .texto-nossa-historia .traco1 {
+    border-bottom: 5px solid #FF7000;
+    display: inline-block; 
+}
+
+.carouselExampleIndicators {
+    width: 65.98px;
+    height: 6.56px;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    background-color: E1E5EE;
+    position: relative; 
+    width: 6.6px;
+    height: 6.56px;
+    border-radius: 50%;
+    margin-left: 14.85px;
+    margin-right: 14.85px;
+}
+
+#carouselExampleIndicators .carousel-indicators button .active {
+
+}
+
+#carouselExampleIndicators .carousel-indicators button:hover{
+    background-color: black;
+}
+  
     /* Fim - seção 01  */
 
     /* Inicio - seção 02  */
-.secao-nossos-valores {
+.secao-01 .secao-nossos-valores {
     display: flex;
-    flex-direction: row;
-    margin: 0px 138px 130px 71px;
+    height: 297px;
 }
 
 .secao-01 .secao-nossos-valores .texto-nossos-valores {
-  
-    margin: 0px 40px 106px 0px;
-    padding: 0px;
-
+    max-width: 536px;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 106px;
 }
 
-.secao-01 .secao-nossos-valores .texto-nossos-valores h2{
-    
+.secao-01 .secao-nossos-valores .texto-nossos-valores h2 {
     text-align: left;
     font-size: 48px;
     margin-bottom: 30px;
     position: relative;
     font-family: 'DM Sans', sans-serif;
+    font-style: normal;
     font-weight: 700;
     line-height: 62px;
-    color: #262626;
-
-}
-.secao-01 .secao-nossos-valores .texto-nossos-valores h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 91%;
-    transform: translateX(-100%);
-    width: 155px;
-    height: 5px;
-    background-color: #F97B22;;
 }
 
-.secao-01 .secao-nossos-valores .texto-nossos-valores .texto-com-sombra {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-}
-
-.secao-01 .secao-nossos-valores .texto-nossos-valores  p{
-  
+.secao-01 .secao-nossos-valores .texto-nossos-valores  p {
     font-size: 18px;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 26px;
     font-style: normal;
-    color: #262626;
 }
 
-.secao-01 .secao-nossos-valores .foto-02 {
-
-    padding: 0px;
+.secao-01 .secao-nossos-valores .texto-nossos-valores .traco2 {
+    border-bottom: 5px solid #FF7000;
+    display: inline-block; 
 }
+
     /* Fim - seção 02  */
 /* Seção 01 - Fim  */
 
-/* Seção 02 - Inicio  */
+/* Seção 02 - Inicio */
+
 .secao-02 {
-    display: flex;
-    flex-direction: row;
+    max-width: 1273px;
     margin: 0px 96px 130px 71px;
     position: relative;
-    width: 100%;
 }
 
 .secao-02 aside h2 {
     position: absolute;
-    
+    max-width: 749px;
     top: 110px;
     left: 84px;
     margin: 0px;
@@ -145,7 +152,7 @@ body {
 
 .secao-02 aside p {
     position: absolute;
-  
+    max-width: 616px;
     top: 275px;
     left: 84px;
     margin: 0px;
@@ -158,8 +165,9 @@ body {
 }
 
 .secao-02 aside .botao-equipe {
+    width: 184.35px;
+    height: 40px;
     position: absolute;
-   
     top: 358px;
     left: 84px;
     margin-top: 20px;
@@ -177,7 +185,8 @@ body {
 }
 
 .secao-02 aside .botao-equipe .texto-nossa-equipe {
- 
+    width: 126px;
+    height: 24px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -191,37 +200,88 @@ body {
     font-size: 24px;
     color: white;
 }
-
-
-/*Seção 02 editada */
-
-
-
 /* Seção 02 - Fim  */
 
 /* Seção 03 - Inicio  */
 .secao-03 {
-
+    max-width: 1440px;
+    height: 803px;
     background-color: #FF7000;
     border-radius: 300px 300px 0px 0px;
     color: white;
-    
+    padding-top: 60px;
+
 }
 
 .secao-03 .nossa-equipe {
-
+    max-width: 907px;
+    height: 205px;
     margin: 0px 266px 90px 266px;
     text-align: center;
+
+}
+
+.secao-03 .nossa-equipe h2 {
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+
+.secao-03 .nossa-equipe p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 27px;
+    text-align: center;
+    margin: 0px;
+}
+
+.secao-03 .equipe {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.secao-03 .equipe .funcionario {
+    max-width: 290px;
+    margin-right: 45px;
     
 }
 
-
-
-
-
-/* Parte do footer */
-.card-footer{
-    margin:0;
-    padding: 0;
+.secao-03 .equipe .funcionario .descricao {
+    margin-top: 15px;
 }
+
+.secao-03 .equipe .funcionario .nome-funcionario {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.secao-03 .equipe .funcionario .formacao-educacional {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+
+ }
+
+ .secao-03 .equipe .funcionario .descricao-do-funcionario {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 0px;
+ }
+
+ .secao-03 .equipe .funcionario-04 {
+    margin-right: 0px;
+ }
+ 
 

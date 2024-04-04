@@ -175,8 +175,8 @@ class Footer extends HTMLElement{
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: bold;
-            font-size: 16px;
-            line-height: 24px;
+            font-size: 1rem;
+            line-height: 1.5rem;
 
         }
      
@@ -196,9 +196,26 @@ class Footer extends HTMLElement{
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 0.875rem;
 
             color: #262626;    
+        }
+        @media screen and (max-width: 768px) {
+            .contato {
+                margin-left: 0;
+            }
+            .faq {
+                margin-left: 0;
+            }
+            .central-de-ajuda {
+                margin-right: 0;
+            }
+            .footer-logo {
+                margin-left: 0;
+            }
+            .copyrigth {
+                margin-left: 0;
+            }
         }
        
 

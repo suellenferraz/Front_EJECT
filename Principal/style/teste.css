@@ -11,3 +11,25 @@
     border: none;
     background-color: white;
   }
+
+  .navbar{
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    nav-menu{
+        display: none;
+    }
+
+    .navbar{
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+    footer{
+        width: 100%;
+    }
+    .container-fluid{
+        margin-top: 0;
+    }
+}
