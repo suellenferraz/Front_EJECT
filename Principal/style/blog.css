@@ -8,29 +8,38 @@ main {
     background-color: #ff7000;
     color: #ffffff;
 
-    margin: 5% 0% auto;
+    margin: 5% 0% 0% 0%;
     width: 100%;
     height: 200px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .titulo h1 {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 700;
-    text-align: center;
+    width: 416px;
+    height: 64px;
+    line-height: 64px;
 
     margin: auto;
-    padding: 2%;
-    padding-bottom: 0%;
-    width: 36%;
+    margin-bottom: 10px;
+
+    text-align: center;
 }
 
 .titulo p {
     font-size: 16px;
     font-weight: 400;
 
+    width: 358px;
+    height: 41px;
+    line-height: 20.83px;
     margin: auto;
-    padding: 2%;
-    width: 30%;
+
+    text-align: center;
 }
 
 /*Titulo Blog-posts*/
@@ -41,8 +50,10 @@ main {
 }
 
 .banner {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1137px;
+    height: 270px;
 
     border-radius: 20px;
 
@@ -55,6 +66,8 @@ main {
     color: black;
     margin: 2.5% 0%;
     height: 100px;
+
+    display: block;
 }
 
 #manchete h1 {
@@ -74,17 +87,23 @@ main {
 .quadro {
     overflow: hidden;
     width: 100%;
+    text-align: center;
 }
 
 .post {
     width: 500px;
     height: 520px;
     border-radius: 20px;
-    margin: 5% 2.5%;
+    margin: 2.5% 2.5%;
     padding: 2.5%;
 
     float: left;
     text-align: justify;
+}
+
+.miniatura {
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .miniatura#corte_baixo{
@@ -107,15 +126,6 @@ main {
 
 /*Botoes, Pesquisa e Links*/
 
-.pesquisa {
-    display: flex;
-    margin-right: 5%;
-}
-.pesquisa * {
-    border-radius: 45px;
-    margin-left: auto;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -123,15 +133,11 @@ a {
 
 a:hover {
     color: #ff7000;
+    font-weight: bold;
 }
 
 button {
     background: #ffffff;
-}
-
-button:hover {
-    background-color: #ff7000;
-    color: #ffffff;
 }
 
 .botao-mais {
@@ -142,10 +148,73 @@ button:hover {
     width: 350px;
     height: 50px;
     margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
     border-radius: 45px;
+}
 
-    font-size: 14;
+.botao-mais .mais{
+    font-size: 14px;
     font-weight: 500;
+    color: #787878;
+    border-color: #787878;
+}
+
+.mais:hover {
+    background-color: #ff7000;
+    color: #ffffff;
+    border-color: #ff7000;
+    font-weight: bold;
+}
+
+.pesquisa {
+    display: flex;
+    margin-right: 2.5%;
+}
+
+.pesquisa *{
+    border-radius: 50px;
+}
+
+.barra {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    padding: 0px 15px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F8F8F;
+    ;
+}
+
+.lupa {
+    border: none;
+    margin: 0px 3px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F8F8F;
+}
+
+.lupa:hover {
+    background-color: #ffffff;
+    color: #ff7000;
+    border-color: #ffffff;
+}
+
+.barra_real {
+    display:flex;
+    flex-direction:row;
+
+    margin-left: auto;
+    margin-right: 2.5%;
+
+    width: 195px;
+    height: 31px;
+  
+    border:1px solid #8F8F8F;
 }
 
 /*Envelopamento de Imagem em Texto*/
@@ -188,11 +257,6 @@ button:hover {
     justify-content: space-between;
 }
 
-.info .link-post {
-    margin-left: auto;
-
-}
-
 .autor {
     font-size: 16px;
     font-weight: 700;
@@ -201,4 +265,57 @@ button:hover {
 .data-hora {
     font-size: 16px;
     font-weight: 500;
+}
+
+.rede-social {
+    width: 119px;
+    height: 38px;
+
+    font-size: 34px;
+    text-align: right;
+}
+
+.curtida {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.curtida:hover {
+    color: #ff7000;
+}
+
+.amei {
+    width: 20px;
+    height: 20px;
+
+    color: #CAD1E1;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.amei:hover {
+    color: #ff7000;
+}
+
+.data-post {
+    width: 181px;
+    height: 22px;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #95A1BB;
+}
+
+.link-post {
+    width: 75px;
+    height: 20px;
+    margin-left: auto;
+
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 20px;
 }
