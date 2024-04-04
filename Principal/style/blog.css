@@ -93,6 +93,15 @@ main {
     background-size: cover;
 }
 
+.miniatura {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+
 /*Botoes, Pesquisa e Links*/
 
 .pesquisa {
