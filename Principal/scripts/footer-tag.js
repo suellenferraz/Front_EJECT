@@ -126,8 +126,7 @@ class Footer extends HTMLElement{
             justify-content: space-between;
             align-items: start;
             bottom: 0;
-            width: 100%;
-           
+            width: 100%;       
         }
         .colunas-footer {
             display: flex;
