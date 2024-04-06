@@ -1,0 +1,37 @@
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 4rem;
+}
+
+.buttons button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    nav-menu{
+        display: none;
+    }
+
+    .navbar{
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+    footer{
+        width: 100%;
+        padding: 0;
+    }
+    .container-fluid{
+        margin-top: 0;
+        padding: 0;
+    }
+}
