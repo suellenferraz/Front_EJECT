@@ -1,0 +1,268 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    background-color: E1E5EE;
+    width: 6.6px;
+    height: 6.56px;
+    border-radius: 50%;
+}
+
+.bem-vindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+
+
+#carouselExampleIndicators{
+    max-width: 80%;
+    height: 100%;
+
+}
+#carouselExampleIndicators img{
+    max-width: 100%;
+}
+
+#carouselCursos-CienciasHumanas, #carouselCursos-CienciasExatas, #carouselCursos-Biociencia{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+#carouselCursos-CienciasHumanas h3, #carouselCursos-CienciasExatas h3, #carouselCursos-Biociencia h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35px;
+
+    color: #262626;
+
+
+}
+
+
+
+.container{
+    margin: 0auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-footer{
+    margin:0;
+    padding: 0;
+}
+
+footer{
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+
+.cursos-mais-populares, .todos-os-cursos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}	
+
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel h3{
+    margin: 0;
+}
+
+
+
+.cursos-mais-populares h3{
+    font-size: 2.188rem;
+    font-weight: bold;
+}
+
+.lista-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.todos-os-cursos .titulo h3{
+width: 80%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 64px;
+/* identical to box height, or 133% */
+color: #262626;
+margin-left: 5rem;
+text-align: center;
+}
+
+.search-container {
+    position: relative;
+    width: 300px; /* Ajuste conforme necessário */
+  }
+.search-container input[type="text"]{
+   /* button buscar cursos */
+
+box-sizing: border-box;
+
+/* Auto layout */
+height: 30px;
+border: 1px solid #262626;
+border-radius: 90px;
+padding: 1rem;
+width: 150px;
+color: #262626;
+}
+
+.search-container i {
+    position: relative;
+    top: 50%;   
+    right: 2rem;
+
+  }
+
+
+.alunos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 10rem;
+    
+}
+.wrapper{
+    display: flex;
+    animation: scroll 50s linear infinite;
+}
+
+.alunos h3{
+    font-size: 2.188rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 4rem;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #262626;
+}
+
+
+
+.lista-alunos{
+
+    display: flex;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.buttons button{
+    margin-left: 0.625rem;
+    padding: 0.313rem 0.625rem;
+    border: none;
+    background-color: white;
+  }
+
+.carregar-mais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carregar-mais button{
+    /* carregar mais */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 12px;
+
+width: 300px;
+height: 30px;
+
+border: 1px solid #787878;
+border-radius: 90px;
+background-color: white;
+
+}
+
+.carregar-mais button:hover {
+    /* Estilos quando o mouse está sobre o botão */
+    background-color: #787878; /* Altera a cor de fundo para cinza */
+    color: black; /* Altera a cor do texto para preto */
+}
+
+
+
+  @media screen and (max-width: 768px) {
+    .imagem-bemVindo img{
+        display: none;
+    }
+    .secao-nossa-historia{
+        flex-direction: column;
+        margin: 5rem 0 7rem 0;
+    }
+
+}

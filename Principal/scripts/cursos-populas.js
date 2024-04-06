@@ -49,7 +49,7 @@ class cursosPopulares extends HTMLElement{
         const valorAVista = document.createElement('span');
         valorAVista.classList.add('valorAVista');
         valorAVista.textContent = 'ou ' + this.getAttribute
-        ('valorAVista');
+        ('valorAVista')+' à vista';
 
         
         valorCurso.appendChild(valorParcela);

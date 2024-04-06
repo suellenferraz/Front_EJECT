@@ -28,8 +28,10 @@
     }
     footer{
         width: 100%;
+        padding: 0;
     }
     .container-fluid{
         margin-top: 0;
+        padding: 0;
     }
 }
