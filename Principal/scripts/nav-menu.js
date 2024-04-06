@@ -66,7 +66,6 @@ class NavMenu extends HTMLElement {
                     }
                     .nav {
                         margin-top: 1rem;
-                        margin-left: 3rem;
                         background-color: #fff;
                         color: #000;
                         padding: 10px;
@@ -111,6 +110,28 @@ class NavMenu extends HTMLElement {
                     .nav-menu a {
                         color: #000;
                         text-decoration: none;
+                    }
+
+
+
+
+                    @media screen and (max-width: 768px) {
+                        .nav {
+                            flex-direction: column;
+                            width: 100%;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .nav-menu {
+                            margin-top: 1rem;
+                            display:none;
+                        }
+                        .linha-vertical{
+                            display:none;
+                        
+                        }
+
+
                     }
                 `;
 

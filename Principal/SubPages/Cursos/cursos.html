@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../style/cursos.css">
+    
+    <script src="../../scripts/nav-menu.js" defer></script>
+    <script src="../../scripts/footer-tag.js" defer></script>
+    <script src="../../scripts/cursos-populas.js" defer></script>
+    <script src="../../scripts/alunos-aprova.js" defer></script>
+    <script src="../../scripts/carousel-home.js" defer></script>
+    <script src="../../scripts/todos-cursos.js" defer></script>
+    <title>Mani Cursos - Cursos</title>
+</head>
+    <div class="container-lg">
+      <body>
+            <nav-menu class="nav-menu" src="../../img/nav-logo.png"></nav-menu>
+
+            <section class="bem-vindo">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../../img/cursos/bem-vindo-a-educaçao.png" class="w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../img/cursos/bem-vindo-a-educaçao.png" class="w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../img/cursos/bem-vindo-a-educaçao.png" class="w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../img/cursos/bem-vindo-a-educaçao.png" class="w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <section class="cursos-mais-populares">
+                <h3>Cursos mais populares</h3>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="buttons">
+                            <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span>
+                                <i class="bi bi-arrow-left"></i>
+                              </span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span>
+                                <i class="bi bi-arrow-right"></i>
+                              </span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                
+                        </div>
+                      <div class="carousel-item active">
+                        <div class="lista-cursos">
+                            <cursos-populares
+                                src="../../img/home/engenharia-computacao.png"
+                                titulo="Engenharia de Computação"
+                                avaliacao="4.7"
+                                dados="Superior - 45h semanais - Semipresencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 410,90"
+                                valorAVista="R$ 8.880,00"
+                            ></cursos-populares>
+                
+                            <cursos-populares
+                                src="../../img/home/enfermagem.png"
+                                titulo="Enfermagem"
+                                accesskey="4.4"
+                                dados = "Superior - 45h semanais - Presencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 469,90"
+                                valorAVista="R$ 10.150,00">
+                            </cursos-populares>
+                
+                            <cursos-populares
+                                src="../../img//home/designe-grafico.png"
+                                titulo="Designe Gráfico"
+                                avaliacao="4.6"
+                                dados="Técnico - 30h semanais - Online"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 112,90"
+                                valorAVista="R$2.440,00"
+                            ></cursos-populares>
+                
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="lista-cursos">
+                            <cursos-populares
+                                src="../../img/home/engenharia-computacao.png"
+                                titulo="Engenharia de Computação"
+                                avaliacao="4.7"
+                                dados="Superior - 45h semanais - Semipresencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 410,90"
+                                valorAVista="R$ 8.880,00"
+                            ></cursos-populares>
+                
+                            <cursos-populares
+                                src="../../img/home/enfermagem.png"
+                                titulo="Enfermagem"
+                                accesskey="4.4"
+                                dados = "Superior - 45h semanais - Presencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 469,90"
+                                valorAVista="R$ 10.150,00">
+                            </cursos-populares>
+                
+                            <cursos-populares
+                                src="../../img/home/designe-grafico.png"
+                                titulo="Designe Gráfico"
+                                avaliacao="4.6"
+                                dados="Técnico - 30h semanais - Online"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 112,90"
+                                valorAVista="R$2.440,00"
+                            ></cursos-populares>
+                
+                        </div>
+                      </div>
+            
+                    </div>
+                    </div>
+                  
+            </section>
+      
+            <section class="todos-os-cursos">
+              <div class="titulo">
+                    <h3>Todos os cursos</h3>
+                    <div class="search-container">
+                      <input type="text" placeholder="Buscar curso">
+                      <i class="bi bi-search"></i>
+                    </div>
+                </div>
+
+                <div id="carouselCursos-CienciasHumanas" class="carousel slide">
+                  <h3>Ciências Humanas</h3>
+                  <div class="carousel-inner">
+                      <div class="buttons">
+                          <button class="carousel-control" type="button" data-bs-target="#carouselCursos-CienciasHumanas" data-bs-slide="prev">
+                            <span>
+                              <i class="bi bi-arrow-left"></i>
+                            </span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control" type="button" data-bs-target="#carouselCursos-CienciasHumanas" data-bs-slide="next">
+                            <span>
+                              <i class="bi bi-arrow-right"></i>
+                            </span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+              
+                      </div>
+                    <div class="carousel-item active">
+                      <div class="lista-cursos">
+                          <todos-cursos
+                          src="../../img/cursos/ciencias-humanas/licenciatura-letras.png"
+                          titulo="Licenciatura em L..."
+                          dados="Superior - 45h semanais - Presencial"
+                          avaliacao="4.7"
+                          valorParcela="10 x R$ 544,90"
+                          valorAVista="R$4.905,00"
+                          >
+                          </todos-cursos>
+                          <todos-cursos
+                          src="../../img/cursos/ciencias-humanas/biblioteconomia.png"
+                          titulo="Biblioteconomia"
+                          dados="Técnico - 30h semanais - Online"
+                          avaliacao="4.7"
+                          valorParcela="10 x R$ 329,90"
+                          valorAVista="R$2.925,00"
+                          >
+                          </todos-cursos>
+                          <todos-cursos
+                          src="../../img/cursos/ciencias-humanas/turismo.png"
+                          titulo="Turismo"
+                          dados="Superior - 45h semanais - Semipresencial"
+                          avaliacao="4.7"
+                          valorParcela="10 x R$ 299,90"
+                          valorAVista="R$2.699,00"
+                          >
+                          </todos-cursos>
+                          <todos-cursos
+                        src="../../img/cursos/ciencias-humanas/bacharel-historia.png"
+                        titulo="Bacharelado em H..."
+                        dados="Superior - 45h semanais - Online"
+                        avaliacao="4.7"
+                        valorParcela="10 x R$ 429,90"
+                        valorAVista="R$3.869,00"
+                        >
+                        </todos-cursos>
+              
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="lista-cursos">
+                        <todos-cursos
+                          src="../../img/cursos/ciencias-humanas/licenciatura-letras.png"
+                          titulo="Licenciatura em L..."
+                          dados="Superior - 45h semanais - Presencial"
+                          avaliacao="4.7"
+                          valorParcela="10 x R$ 544,90"
+                          valorAVista="R$4.905,00"
+                          >
+                        </todos-cursos>
+                        <todos-cursos
+                          src="../../img/cursos/ciencias-humanas/biblioteconomia.png"
+                          titulo="Biblioteconomia"
+                          dados="Técnico - 30h semanais - Online"
+                          avaliacao="4.7"
+                          valorParcela="10 x R$ 329,90"
+                          valorAVista="R$2.925,00"
+                          >
+                        </todos-cursos>
+                        <todos-cursos
+                          src="../../img/cursos/ciencias-humanas/turismo.png"
+                          titulo="Turismo"
+                          dados="Superior - 45h semanais - Semipresencial"
+                          avaliacao="4.7"
+                          valorParcela="10 x R$ 299,90"
+                          valorAVista="R$2.699,00"
+                          >
+                          </todos-cursos>
+                        <todos-cursos
+                        src="../../img/cursos/ciencias-humanas/bacharel-historia.png"
+                        titulo="Bacharelado em H..."
+                        dados="Superior - 45h semanais - Online"
+                        avaliacao="4.7"
+                        valorParcela="10 x R$ 429,90"
+                        valorAVista="R$3.869,00"
+                        >
+                        </todos-cursos>
+            
+                      </div>
+                    </div>
+          
+                  </div>
+                  </div>
+                  
+        <!--Ciências Exatas --> 
+                 <div id="carouselCursos-CienciasExatas" class="carousel slide">
+                    <h3>Ciências Exatas</h3>
+                    <div class="carousel-inner">
+                    <div class="buttons">
+                      <button class="carousel-control" type="button" data-bs-target="#carouselCursos-CienciasExatas" data-bs-slide="prev">
+                          <span>
+                            <i class="bi bi-arrow-left"></i>
+                          </span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control" type="button" data-bs-target="#carouselCursos-CienciasExatas" data-bs-slide="next">
+                        <span>
+                          <i class="bi bi-arrow-right"></i>
+                        </span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                                
+                  </div>
+                  <div class="carousel-item active">
+                    <div class="lista-cursos">
+                      <todos-cursos
+                      src="../../img/cursos/ciencias-exatas/engenharia-civil.png"
+                      titulo="Engenharia Civil"
+                      dados="Superior - 45h semanais - Presencial"
+                      avaliacao="4.7"
+                      valorParcela="10 x R$ 544,90"
+                      valorAVista="R$4.905,00"
+                      >
+                      </todos-cursos>
+                      <todos-cursos
+                        src="../../img/cursos/ciencias-exatas/licenciatura-matematica.png"
+                        titulo="Licenciatura em M..."
+                        dados="Superior - 45h semanais - Presencial"
+                        avaliacao="4.2"
+                        valorParcela="10 x R$ 329,90"
+                        valorAVista="R$2.925,00"
+                      >
+                      </todos-cursos>
+                      <todos-cursos
+                      src="../../img/cursos/ciencias-exatas/estatistica.png"
+                      titulo="Estatistica"
+                      dados="Técnico - 20h semanais - Semipresencial"
+                      avaliacao="3.9"
+                      valorParcela="10 x R$ 299,90"
+                      valorAVista="R$2.699,00"
+                      >
+                      </todos-cursos>
+                      <todos-cursos
+                      src="../../img/cursos/ciencias-exatas/bacharel-fisica.png"
+                      titulo="Bacharelado em F..."
+                      dados="Superior - 45h semanais - Online"
+                      avaliacao="4.1"
+                      valorParcela="10 x R$ 429,90"
+                      valorAVista="R$3.869,00"
+                      >
+                      </todos-cursos>
+                </div>
+              </div>
+                  <div class="carousel-item">
+                      <div class="lista-cursos">
+                        <todos-cursos
+                        src="../../img/cursos/ciencias-exatas/engenharia-civil.png"
+                        titulo="Engenharia Civil"
+                        dados="Superior - 45h semanais - Presencial"
+                        avaliacao="4.7"
+                        valorParcela="10 x R$ 544,90"
+                        valorAVista="R$4.905,00"
+                        >
+                        </todos-cursos>
+                        <todos-cursos
+                          src="../../img/cursos/ciencias-exatas/licenciatura-matematica.png"
+                          titulo="Licenciatura em M..."
+                          dados="Superior - 45h semanais - Presencial"
+                          avaliacao="4.2"
+                          valorParcela="10 x R$ 329,90"
+                          valorAVista="R$2.925,00"
+                        >
+                        </todos-cursos>
+                        <todos-cursos
+                        src="../../img/cursos/ciencias-exatas/estatistica.png"
+                        titulo="Estatistica"
+                        dados="Técnico - 20h semanais - Semipresencial"
+                        avaliacao="3.9"
+                        valorParcela="10 x R$ 299,90"
+                        valorAVista="R$2.699,00"
+                        >
+                        </todos-cursos>
+                        <todos-cursos
+                        src="../../img/cursos/ciencias-exatas/bacharel-fisica.png"
+                        titulo="Bacharelado em F..."
+                        dados="Superior - 45h semanais - Online"
+                        avaliacao="4.1"
+                        valorParcela="10 x R$ 429,90"
+                        valorAVista="R$3.869,00"
+                        >
+                        </todos-cursos>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Biociências --> 
+              <div id="carouselCursos-Biociencia" class="carousel slide">
+                <h3>Biociências</h3>
+                <div class="carousel-inner">
+                <div class="buttons">
+                  <button class="carousel-control" type="button" data-bs-target="#carouselCursos-Biociencia" data-bs-slide="prev">
+                      <span>
+                        <i class="bi bi-arrow-left"></i>
+                      </span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control" type="button" data-bs-target="#carouselCursos-Biociencia" data-bs-slide="next">
+                    <span>
+                      <i class="bi bi-arrow-right"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                            
+              </div>
+              <div class="carousel-item active">
+                <div class="lista-cursos">
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/bacaharelado-ciencia.png"
+                  titulo="Bacharelado em Ci..."
+                  dados="Superior - 45h semanais - Presencial"
+                  avaliacao="4.7"
+                  valorParcela="10 x R$ 544,90"
+                  valorAVista="R$4.905,00"
+                  >
+                  </todos-cursos>
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/biomedicina.png"
+                  titulo="Biomedicina"
+                  dados="Superior - 45h semanais - Presencial"
+                  avaliacao="4.2"
+                  valorParcela="10 x R$ 329,90"
+                  valorAVista="R$2.925,00"
+                  >
+                  </todos-cursos>
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/ecologia.png"
+                  titulo="Ecologia"
+                  dados="Técnico - 20h semanais - Semipresencial"
+                  avaliacao="3.9"
+                  valorParcela="10 x R$ 299,90"
+                  valorAVista="R$2.699,00"
+                  >
+                  </todos-cursos>
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/zootecnia.png"
+                  titulo="Zootecnia"
+                  dados="Superior - 45h semanais - Online"
+                  avaliacao="4.1"
+                  valorParcela="10 x R$ 429,90"
+                  valorAVista="R$3.869,00"
+                  >
+                  </todos-cursos>
+            </div>
+          </div>
+              <div class="carousel-item">
+                  <div class="lista-cursos">
+                    <todos-cursos
+                  src="../../img/cursos/biociencia/bacaharelado-ciencia.png"
+                  titulo="Bacharelado em Ci..."
+                  dados="Superior - 45h semanais - Presencial"
+                  avaliacao="4.7"
+                  valorParcela="10 x R$ 544,90"
+                  valorAVista="R$4.905,00"
+                  >
+                  </todos-cursos>
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/biomedicina.png"
+                  titulo="Biomedicina"
+                  dados="Superior - 45h semanais - Presencial"
+                  avaliacao="4.2"
+                  valorParcela="10 x R$ 329,90"
+                  valorAVista="R$2.925,00"
+                  >
+                  </todos-cursos>
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/ecologia.png"
+                  titulo="Ecologia"
+                  dados="Técnico - 20h semanais - Semipresencial"
+                  avaliacao="3.9"
+                  valorParcela="10 x R$ 299,90"
+                  valorAVista="R$2.699,00"
+                  >
+                  </todos-cursos>
+                  <todos-cursos
+                  src="../../img/cursos/biociencia/zootecnia.png"
+                  titulo="Zootecnia"
+                  dados="Superior - 45h semanais - Online"
+                  avaliacao="4.1"
+                  valorParcela="10 x R$ 429,90"
+                  valorAVista="R$3.869,00"
+                  >
+                  </todos-cursos>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+          </div>
+
+
+        </section>
+
+        <div class="carregar-mais">
+          <button>Carregar mais</button>
+        </div>
+
+          </div>
+            <section class="alunos">
+                <h3>Quem já foi aluno <span style="color:#ff7000">aprova!</span></h3>
+                <div class="wrapper">
+                    <div class="lista-alunos">
+                        <alunos-aprova
+                        src="../../img/home/aluna-1.png"
+                        nome="Maria Luiza Queiroz"
+                        curso="Designer Gráfico (2020 - 2024)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="../../img/home/aluno-2.png"
+                        nome="Matheus Figueira"
+                        curso="Engenheiro da Computação (2015 - 2020)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="../../img/home/aluno-3.png"
+                        nome="Annelise de Lima"
+                        curso="Biomédica (2014 - 2018)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="../../img/home/aluno-4.png"
+                        nome="Maria Clara Dias"
+                        curso="Bacharel em História (2012 - 2016)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="../../img/home/aluno-5.png"
+                        nome="João Maria"
+                        curso="Bacharel em Ecologia (2014 - 2018)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+    
+                   </div>
+                </div>
+            </section>
+
+</div>    
+     
+        <footer style="background-color: #ff7000; position: relative;">
+            <footer-tag src="../../img/nav-logo.png" class="card-footer"></footer-tag>
+            <div class="redes-sociais"style="width:50%; position: relative; bottom: 90px; left: 90px";>
+                <a href="https://www.facebook.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-facebook mx-1"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/eject?originalSubdomain=br"  class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-linkedin mx-1"></i>
+                </a>
+                <a href="https://twitter.com/ufrnbr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-twitter mx-1" ></i>
+                </a>
+                <a href="https://www.instagram.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-instagram mx-1"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

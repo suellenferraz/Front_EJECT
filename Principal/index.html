@@ -11,38 +11,230 @@
     
     <script src="scripts/nav-menu.js" defer></script>
     <script src="scripts/footer-tag.js" defer></script>
+    <script src="scripts/cursos-populas.js" defer></script>
+    <script src="scripts/alunos-aprova.js" defer></script>
+    <script src="scripts/carousel-home.js" defer></script>
     <title>Mani Cursos - Home</title>
 </head>
-<body>
-    <nav-menu src="img/nav-logo.png"></nav-menu>
+<div class="container-lg">
+        <body>
+            <div class="circulos" style="margin: 0;">
+                <img src="img/home/circulos/circulo-laranja.png" alt="circulo laranja" style="position: absolute;left: 22.313rem; top: -1.87rem;">
+                <img src="img/home/circulos/circulo-laranja.png" alt="circulo laranja" style="position: absolute; left: 7.813rem; top: 16.063rem; width: 3.75rem;height: 3.75rem;">
+                <img src="img/home/circulos/circulo-laranja.png" alt="circulo laranha" style="position: absolute;width: 3.75rem;height: 3.75rem;left: 26.875rem;top: 48.875rem; ">
+                <img src="img/home/circulos/circulo-preto.png" alt="circulo preto preenchido com sombra" style="position: absolute; width: 2.305rem;height: 2.305rem;left: 4.707rem;top: 8.813rem;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+                <img src="img/home/circulos/circulo-preto-2.png" alt="circulo preto sem sombra" style="position: absolute;width: 2.305rem;height: 2.305rem;left: 43.582rem;top: 31.438rem;transform: rotate(124.72deg);
+                ">
+                <img src="img/home/circulos/circulo-aberto.png" alt="circulo preto aberto" style="position: absolute;width: 3.75rem;height: 3.75rem;left: 39.375rem;top: 13.563rem;">
+            </div>
 
-    <section class="bem-vindo   m-5">
-        <h1 class="col">Bem vindo a educação <br>Mani de qualidade</h1>
-        <p>Com o Mani cursos você pode ficar tranquilo, seu futuro está em boas mãos.</p>
-    </section>
-
-
-
-
-
+            <section class="bem-vindo">
+                <div class="leftCard">
+                    <nav-menu class="nav-menu" src="img/nav-logo.png"></nav-menu>
+                    <div class="texto-bemVindo">
+                        <h1 class="col">Bem vindo a educação <br>Mani de <span>qualidade</span></h1>
+                        <p>Com a Mani cursos você pode ficar tranquilo, seu futuro<br> está em boas mãos.</p>
+                        <div class="explorar ">
+                            <div class="explorar-cursos rounded-pill">
+                                <span>
+                                    <i class="bi bi-arrow-right-circle-fill"></i>
+                                </span>
+                                <h3>EXPLORAR CURSOS</h3>
+                            </div>
+                            <img src="img/home/alunos.png" alt="Alunos">
+                        </div>
+                    </div>
+                </div>
+                <div class="imagem-bemVindo">
+                    <img src="img/home/fotos-esquerda.png" alt="Imagem de boas vindas">
+                </div>
+            </section>
+            
+            <section class="cursos-mais-populares">
+                <h3>Cursos mais populares</h3>
+                <div class="cursos">
+                    
+                </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="buttons">
+                            <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span>
+                                <i class="bi bi-arrow-left"></i>
+                              </span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span>
+                                <i class="bi bi-arrow-right"></i>
+                              </span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                
+                        </div>
+                      <div class="carousel-item active">
+                        <div class="lista-cursos">
+                            <cursos-populares
+                                src="img/home/engenharia-computacao.png"
+                                titulo="Engenharia de Computação"
+                                avaliacao="4.7"
+                                dados="Superior - 45h semanais - Semipresencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 410,90"
+                                valorAVista="R$ 8.880,00"
+                            ></cursos-populares>
+                
+                            <cursos-populares
+                                src="img/home/enfermagem.png"
+                                titulo="Enfermagem"
+                                accesskey="4.4"
+                                dados = "Superior - 45h semanais - Presencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 469,90"
+                                valorAVista="R$ 10.150,00">
+                            </cursos-populares>
+                
+                            <cursos-populares
+                                src="img//home/designe-grafico.png"
+                                titulo="Designe Gráfico"
+                                avaliacao="4.6"
+                                dados="Técnico - 30h semanais - Online"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 112,90"
+                                valorAVista="R$2.440,00"
+                            ></cursos-populares>
+                
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="lista-cursos">
+                            <cursos-populares
+                                src="img/home/engenharia-computacao.png"
+                                titulo="Engenharia de Computação"
+                                avaliacao="4.7"
+                                dados="Superior - 45h semanais - Semipresencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 410,90"
+                                valorAVista="R$ 8.880,00"
+                            ></cursos-populares>
+                
+                            <cursos-populares
+                                src="img/home/enfermagem.png"
+                                titulo="Enfermagem"
+                                accesskey="4.4"
+                                dados = "Superior - 45h semanais - Presencial"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 469,90"
+                                valorAVista="R$ 10.150,00">
+                            </cursos-populares>
+                
+                            <cursos-populares
+                                src="img//home/designe-grafico.png"
+                                titulo="Designe Gráfico"
+                                avaliacao="4.6"
+                                dados="Técnico - 30h semanais - Online"
+                                informacao="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+                                valorParcela="24 x R$ 112,90"
+                                valorAVista="R$2.440,00"
+                            ></cursos-populares>
+                
+                        </div>
+                      </div>
+            
+                    </div>
+    
+            
+                    </div>
+                  </div>
+            </section>
         
-    <footer style="position:relative; bottom: 0px;">
-        <footer-tag src="img/nav-logo.png" class="card-footer"></footer-tag>
-        <div class="redes-sociais"style="width:50%; position: relative; bottom: 100px; left: 106px";>
-            <a href="https://www.facebook.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
-                <i class="bi bi-facebook mx-1"></i>
-            </a>
-            <a href="https://www.linkedin.com/company/eject?originalSubdomain=br"  class="text-decoration-none link-dark" target="_blank">
-                <i class="bi bi-linkedin mx-1"></i>
-            </a>
-            <a href="https://twitter.com/ufrnbr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none link-dark" target="_blank">
-                <i class="bi bi-twitter mx-1" ></i>
-            </a>
-            <a href="https://www.instagram.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
-                <i class="bi bi-instagram mx-1"></i>
-            </a>
-        </div>
-    </footer>
+            <section class="nossa-historia">
+                <div class="secao-nossa-historia">
+    
+                    <div class="foto-01">
+                    <img src="img/sobre/foto01.png" alt="Imagem Nossa História">
+                    </div>
+    
+                    <div class="texto-nossa-historia">
+                        <h2><strong>Nossa História</strong></h2>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="alunos">
+                <h3>Quem já foi aluno <span style="color:#ff7000">aprova!</span></h3>
+                <div class="wrapper">
+                    <div class="lista-alunos">
+                        <alunos-aprova
+                        src="img/home/aluna-1.png"
+                        nome="Maria Luiza Queiroz"
+                        curso="Designer Gráfico (2020 - 2024)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="img/home/aluno-2.png"
+                        nome="Matheus Figueira"
+                        curso="Engenheiro da Computação (2015 - 2020)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="img/home/aluno-3.png"
+                        nome="Annelise de Lima"
+                        curso="Biomédica (2014 - 2018)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="img/home/aluno-4.png"
+                        nome="Maria Clara Dias"
+                        curso="Bacharel em História (2012 - 2016)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+                        <alunos-aprova
+                        src="img/home/aluno-5.png"
+                        nome="João Maria"
+                        curso="Bacharel em Ecologia (2014 - 2018)"
+                        avaliacao="Lorem ipsum dolor sit amet consectetur. Id nunc ultrices eget risus at accumsan. Urna."
+                        >
+                        </alunos-aprova>
+    
+                </div>
+                </div>
+            </section>
+            
+    </div>    
+    
+    
+    
+    
+    
+            
+        <footer style="background-color: #ff7000; position: relative;">
+            <footer-tag src="img/nav-logo.png" class="card-footer"></footer-tag>
+            <div class="redes-sociais"style="width:50%; position: relative; bottom: 90px; left: 90px";>
+                <a href="https://www.facebook.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-facebook mx-1"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/eject?originalSubdomain=br"  class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-linkedin mx-1"></i>
+                </a>
+                <a href="https://twitter.com/ufrnbr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-twitter mx-1" ></i>
+                </a>
+                <a href="https://www.instagram.com/ejectufrn/" class="text-decoration-none link-dark" target="_blank">
+                    <i class="bi bi-instagram mx-1"></i>
+                </a>
+            </div>
+        </footer>
+
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
