@@ -26,11 +26,11 @@ class NavMenu extends HTMLElement {
         menu.classList.add('nav-menu');
 
         const navItems = [
-            { text: 'HOME', link: '/home' },
-            { text: 'SOBRE', link: '/sobre' },
-            { text: 'CURSOS', link: '/cursos' },
-            { text: 'BLOG', link: '/blog' },
-            { text: 'CONTATO', link: '/contato' }
+            { text: 'HOME', link: '../Home/index.html' },
+            { text: 'SOBRE', link: '../Sobre/sobre.html' },
+            { text: 'CURSOS', link: '../Cursos/cursos.html' },
+            { text: 'BLOG', link: '../Blog/blog.html' },
+            { text: 'CONTATO', link: '../Contato/contato.html' }
         ];
 
         navItems.forEach(item => {
@@ -46,94 +46,90 @@ class NavMenu extends HTMLElement {
             
         });
         
-                const style = document.createElement('style');
-                style.textContent = `
-                .linha-vertical {
-                    width: 2.5rem;
-                    height: 0px;
-                    margin: 0;
-                    border: 2px solid #262626;
-                    transform: rotate(-90deg);
-                    margin-right:0;
-                    
-                }
+        const style = document.createElement('style');
+        style.textContent = `
+        .linha-vertical {
+            width: 2.5rem;
+            height: 0px;
+            margin: 0;
+            border: 2px solid #262626;
+            transform: rotate(-90deg);
+            margin-right:0;
+            
+        }
 
+        .nav-logo{  
+            width: 6rem;
+            height: 2.5rem;
+            
+        }
 
-                    .nav-logo{  
-                        width: 6rem;
-                        height: 2.5rem;
-                        
-                    }
-                    .nav {
-                        margin-top: 1rem;
-                        background-color: #fff;
-                        color: #000;
-                        padding: 10px;
-                        display: flex;
-                        align-items: center;
-                        flex-direction: row;
-                    }
-                    .nav-menu {
-                        display: flex;
-                        justify-content: space-around;
-                        list-style: none;
-                        padding: 0;
-                        justify-content: center;
-                        align-items: center;
-                        margin-left: 0;
-                       
-                    }
-                    
-                    .nav-menu li {
-                        padding: 0 10px;
-                        
+        .nav {
+            margin-top: 1rem;
+            background-color: #fff;
+            color: #000;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
 
-                        font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 20px;
-                        /* identical to box height */
-                        letter-spacing: 0.075em;
+        .nav-menu {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0;
+            
+        }
+        
+        .nav-menu li {
+            padding: 0 10px;
 
-                        color: #262626;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+            letter-spacing: 0.075em;
 
+            color: #262626;
 
-                        /* Inside auto layout */
-                        flex: none;
-                        order: 1;
-                        flex-grow: 0;
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
 
-                                                
+        .nav-menu a:hover {
+            color: #ff7000;
+        }
 
-                    }
-                    .nav-menu a {
-                        color: #000;
-                        text-decoration: none;
-                    }
+        .nav-menu a {
+            color: #000;
+            text-decoration: none;
+        }
 
+        @media screen and (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
 
+            .nav-menu {
+                margin-top: 1rem;
+                display:none;
+            }
 
-
-                    @media screen and (max-width: 768px) {
-                        .nav {
-                            flex-direction: column;
-                            width: 100%;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        .nav-menu {
-                            margin-top: 1rem;
-                            display:none;
-                        }
-                        .linha-vertical{
-                            display:none;
-                        
-                        }
-
-
-                    }
-                `;
+            .linha-vertical{
+                display:none;
+            }
+        }`;
 
         nav.appendChild(menu);
         shadow.appendChild(nav);
