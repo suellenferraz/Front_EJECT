@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.navegar {
+    padding-left: 140px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -76,9 +80,6 @@ body {
     margin-right: 14.85px;
 }
 
-#carouselExampleIndicators .carousel-indicators button .active {
-
-}
 
 #carouselExampleIndicators .carousel-indicators button:hover{
     background-color: black;

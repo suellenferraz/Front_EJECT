@@ -1,8 +1,20 @@
 @charset "UTF-8";
 
+.navegar {
+    padding-left: 140px;
+}
+
 main {
-    margin: 60px 152px;
-    text-align: center;
+    display: flex;
+    margin: 60px 0px;
+    text-align: left;
+
+    justify-content: center;
+}
+
+main section {
+    width: 100%;
+    max-width: 1137px;
 }
 
 button {
@@ -51,11 +63,17 @@ button {
 }
 
 /* BARRA DE PESQUISA */
+header .pesquisa-barra {
+    margin: auto;
+    width: 100%;
+    max-width: 1137px;
+}
 .pesquisa-barra {
     display:flex;
     flex-direction:row;
 
     width: 100%;
+    max-width: 1137px;
     height: 31px;
 }
 
@@ -64,8 +82,7 @@ button {
     width: 195px;
     height: 31px;
 
-    margin: auto;
-    margin-right: 152px;
+    margin-left: auto;
     border-radius: 90px;
     border: 1px solid #262626;
 }
@@ -102,13 +119,14 @@ button {
 }
 
 /* QUADRO DE POSTS */
-
 .quadro {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 
-    gap: 100px 158px;
+    justify-content: center;
+    gap: 100px 200px;
+    
 }
 
 .post {
@@ -221,12 +239,16 @@ a:hover {
 }
 
 /* CARREGAR MAIS */
+.carregar-mais {
+    display: flex;
+    text-align: center;
+}
 
 .botao-mais {
     width: 322px;
     height: 40px;
 
-    margin: 60px 0px;
+    margin: 60px auto;
     border-radius: 90px;
     border: 1px solid #787878;
 
