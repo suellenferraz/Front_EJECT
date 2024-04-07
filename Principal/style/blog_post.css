@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+main {
+    margin: 60px 152px;
+    text-align: left;
+}
+
+/* CAPA */
+ 
+.banner {
+    max-width: 100%;
+    width: 1137px;
+    height: 270px;
+    border-radius: 20px;
+
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+
+.titulo {
+    width: 778px;
+    height: 108px;
+
+    margin: 30px 0px;
+}
+
+.titulo h1 {
+    width: 431px;
+    height: 72px;
+
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+}
+
+.titulo p {
+    width: 778px;
+    height: 26px;
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* INFORMAÇÕES */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor {
+    width: 227px;
+    height: 24px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.rede-social {
+    display: flex;
+    gap: 3px;
+    width: 119px;
+    height: 38px;
+
+    font-size: 24px;
+    text-align: right;
+}
+
+.data-post {
+    width: 146px;
+    height: 24px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+button {
+    background: #ffffff;
+
+    width: 38px;
+    height: 38px;
+
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+button:hover {
+    color: #ff7000;
+}
+
+/* ARTIGO */
+
+.envelope {
+    display: flex;
+    box-sizing: border-box;
+    margin: 30px 0px;
+}
+
+.texto {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify; 
+}
+
+.pacote {
+    width: 467px;
+    height: 270px;
+    border-radius: 20px;
+    
+
+    float: right;
+    margin: 20px;
+    margin-right: 0px;
+
+    object-fit: cover;
+    object-position: 0% 70%;
+}
