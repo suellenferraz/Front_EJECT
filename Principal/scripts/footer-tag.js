@@ -215,6 +215,10 @@ class Footer extends HTMLElement{
             .copyrigth {
                 margin-left: 0;
             }
+            ul{
+                font-size: 0.5rem;
+            }
+         
         }
        
 
