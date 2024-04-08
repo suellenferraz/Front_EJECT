@@ -258,13 +258,52 @@ color: #262626;
     background-color: white;
   }
 
+  
+/* CSS para mobile*/
+
+
+  .navbar{
+    display: none;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+  }
+
   @media screen and (max-width: 768px) {
-    .imagem-bemVindo img{
+    nav-menu{
         display: none;
     }
-    .secao-nossa-historia{
-        flex-direction: column;
-        margin: 5rem 0 7rem 0;
+
+    .navbar{
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+    footer{
+        width: 100%;
+        padding: 0;
+    }
+    .container-fluid{
+        margin-top: 0;
+        padding: 0;
+    }
+    .redes-sociais{
+        display: none;
+    }
+    .circulos{
+        display: none;
+    }
+    .navbar img{
+        width: 100%;
+        height: 4rem;
     }
 
+    .linha-superior{
+        display: flex;
+        flex-direction: row;
+    }
+    .linha-superior img{
+        width: 7rem;
+        height: 7rem;
+    }
 }

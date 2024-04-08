@@ -116,22 +116,11 @@ class NavMenu extends HTMLElement {
 
 
                     @media screen and (max-width: 768px) {
-                        .nav {
-                            flex-direction: column;
-                            width: 100%;
-                            justify-content: center;
-                            align-items: center;
+                        .nav{
+                            display: none;
                         }
-                        .nav-menu {
-                            margin-top: 1rem;
-                            display:none;
+                            
                         }
-                        .linha-vertical{
-                            display:none;
-                        
-                        }
-
-
                     }
                 `;
 
