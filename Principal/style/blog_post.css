@@ -1,15 +1,27 @@
 @charset "UTF-8";
 
+.navegar {
+    padding-left: 140px;
+}
+
 main {
+    display: flex;
     margin: 60px 152px;
     text-align: left;
+
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    max-width: 1137px;
 }
 
 /* CAPA */
  
 .banner {
-    max-width: 100%;
-    width: 1137px;
+    width: 100%;
+    max-width: 1137px;
     height: 270px;
     border-radius: 20px;
 
@@ -18,14 +30,16 @@ main {
 }
 
 .titulo {
-    width: 778px;
+    width: 100%;
+    max-width: 778px;
     height: 108px;
 
     margin: 30px 0px;
 }
 
 .titulo h1 {
-    width: 431px;
+    width: 100%;
+    max-width: 431px;
     height: 72px;
 
     font-family: Montserrat;
@@ -36,7 +50,8 @@ main {
 }
 
 .titulo p {
-    width: 778px;
+    width: 100%;
+    max-width: 778px;
     height: 26px;
 
     font-family: DM Sans;
